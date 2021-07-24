@@ -1,0 +1,37 @@
+.mobile{
+    header{
+        .nav{
+            background-color:$bgcolor-header-nav-footer;
+            div{
+                a{
+                    .logo-header-mobile{
+                        @include logo-header(15rem,1.3rem,1rem);
+                    }
+                }
+                div{
+                    ul{
+                        li{
+                            .icon-usuario{
+                                width: 4rem;
+                            }
+                            .margin-ayuda{
+                                margin-bottom: 2.5rem;
+                            }
+                        }
+                        .menu{
+                            @include menu-mobile(1.3rem,2rem);
+                        }                            
+                        .ayuda{
+                            border-bottom: $bordes-gris $bordes;
+                            
+                        }
+                        .usuario-texto{
+                            @include menu-mobile(1rem,1rem);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

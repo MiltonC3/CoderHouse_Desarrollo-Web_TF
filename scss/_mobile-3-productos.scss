@@ -1,0 +1,87 @@
+@media only screen and (max-width:429px){
+    .section-productos{
+        @include section-productos(0,7.5rem,2rem);
+        .titulo-productos{
+            @include titulo-productos(100%,0,3.5rem,1.6rem,center);
+            border-bottom: $bordes $color-texto-gris;
+        }
+        div{
+            .div-row-productos{
+                position: relative;
+                height: 150rem;
+                width: 100%;
+                .card-contenedor{
+                    @include card-contenedor(88vw,9.15rem);
+                    grid-template-columns: 40% 35% 25%;
+                    grid-template-rows: 50% 50%;
+                    grid-template-areas: 
+                                        "img-card precio-card envio-card"
+                                        "img-card texto-card texto-card";
+
+                    .img-card{
+                        @include img-card(9rem,0.4rem,0);
+                        border-bottom-left-radius: 0.4rem;
+                    }
+                    .precio-card{
+                        @include precio-texto-cards(0.95rem,300);
+                        @include texto-card(precio-card,0.5rem,1.5rem,0);
+                    }
+                    .envio-card{
+                        @include precio-texto-cards(0.7rem,300);
+                        @include texto-card(envio-card,0.5rem,0,2rem);
+                        color: $color1-bordes;
+                        justify-self: end;
+                    }
+                    .texto-card{
+                        @include precio-texto-cards(0.9rem,200);
+                        @include texto-card(texto-card,0,1.7rem,0);
+                        width: 75%;
+                    }        
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:430px) and (max-width:575px){
+    .section-productos{
+        @include section-productos(0,7.5rem,2rem);
+        .titulo-productos{
+            @include titulo-productos(100%,0,3.5rem,1.6rem,center);
+            border-bottom: $bordes $color-texto-gris;
+        }
+        div{
+            .div-row-productos{
+                position: relative;
+                height: 210rem;
+                width: 95%;
+                .card-contenedor{
+                    @include card-contenedor(87vw,11.6rem);
+                    grid-template-columns: 50% 30% 20%;
+                    grid-template-rows: 45% 55%;
+                    grid-template-areas: 
+                                        "img-card precio-card envio-card"
+                                        "img-card texto-card texto-card";
+                                        
+                    .img-card{
+                        @include img-card(11.5rem,0.4rem,0);
+                        border-bottom-left-radius: 0.4rem;
+                    }
+                    .precio-card{
+                        @include precio-texto-cards(1.1rem,300);
+                        @include texto-card(precio-card,0.5rem,0,0);
+                    }
+                    .envio-card{
+                        @include precio-texto-cards(0.7rem,300);
+                        @include texto-card(envio-card,0.5rem,0,1rem);
+                        color: $color1-bordes;
+                        justify-self: end;
+                    }
+                    .texto-card{
+                        @include precio-texto-cards(1rem,200);
+                        @include texto-card(texto-card,0,0,0);
+                    }        
+                }
+            }
+        }
+    }
+}

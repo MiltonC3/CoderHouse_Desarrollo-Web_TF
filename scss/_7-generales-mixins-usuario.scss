@@ -1,0 +1,36 @@
+@mixin input-usuario($width,$height,$margin-top,$font-size){
+    position: relative;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    font-size: $font-size;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    font-family: $font;
+    text-align: center;
+    opacity: 0.5;
+}
+@mixin boton-usuario($width,$line-height,$top,$left,$font-size){
+    position: relative;
+    width: $width;
+    line-height: $line-height;
+    top: $top;
+    left: $left;
+    font-size: $font-size;
+    font-weight: 200;
+    border-radius: 0.6rem;
+    font-family: $font;
+    text-align: center;
+    background-color: $background-color;
+    color: $color-texto;
+}
+@mixin grid-registro($width,$height,$top){
+    width: $width;
+    height: $height;
+    top: $top;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}

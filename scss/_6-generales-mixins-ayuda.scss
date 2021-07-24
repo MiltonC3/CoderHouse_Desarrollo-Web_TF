@@ -1,0 +1,66 @@
+@mixin ayuda-titulo($top,$text-decoration,$font-size,$font-weight){
+    font-family: $font;
+    text-align: center;
+    text-decoration: $text-decoration;
+    font-weight: $font-weight;
+    color: $color-texto-gris;
+    position: relative;
+    top: $top;
+    text-align: center;
+    font-size: $font-size;
+}
+@mixin ayuda-img-pasos($width,$grid-img-pasos,$top){
+    width: $width;
+    grid-area: $grid-img-pasos;
+    opacity: 0.5;
+    justify-self: center;
+    top: $top;
+    align-self: center;
+    position: relative;
+}
+@mixin div-texto-pasos($width){
+    font-family: $font;
+    top: 1rem;
+    font-weight: 200;
+    text-align: center;
+    color: $color-texto-gris-ayuda;
+    width: $width;
+    position: relative;
+    left: 10%;
+}
+@mixin div-preguntas($top,$width,$left,$height){
+    width: $width;
+    height: $height;
+    border-bottom: $color1-bordes $bordes;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: relative;
+    top: $top;
+    left: $left;
+    overflow: hidden;
+    transition: 1s ease;
+}
+@mixin div-preguntas-hover($width,$left,$height){
+    width: $width;
+    position: relative;
+    left: $left;
+    height: $height;
+    border-bottom: $color2-bordes $bordes;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+@mixin p-preguntas($font-size){
+    color: $color-texto-gris;
+    font-family: $font;
+    font-weight: 300;
+    font-size: $font-size;
+    text-align: center;
+}
+@mixin p-respuestas($font-size,$margin-top){
+    color: $color-preguntas-ayuda;
+    font-family: $font;
+    font-weight: 200;
+    margin-top: $margin-top;
+    font-size: $font-size;
+    text-align: center;
+}

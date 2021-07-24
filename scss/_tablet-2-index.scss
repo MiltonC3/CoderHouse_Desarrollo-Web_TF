@@ -1,0 +1,92 @@
+.div-carrito-mobile{
+    .icon-carrito-mobile{
+        @include icon-carrito(1.9rem,8rem,92%,1);
+    }
+}
+.section-logo-index{
+    div{
+        div{
+            .logo{
+                position: relative;
+                top: 7rem;
+                width: 88%;
+                left: 7%;
+            }
+        }
+    }
+}
+.section-publicidad{
+    height: 25rem;
+    .animacion-publicidad{
+        @include anim-infinito(anim-publicidad);
+        border: $color1-bordes $bordes;
+        @keyframes anim-publicidad{
+            0%{border:$color1-bordes $bordes;}
+            25%{border:$color1-bordes $bordes;}
+            50%{border:$color2-bordes $bordes;}
+            75%{border:$color2-bordes $bordes;}
+            100%{border:$color1-bordes $bordes;}
+        }
+    }
+    .row-publicidad-index{
+        display: grid;
+        height: 78%;
+        margin-top: 12rem;
+        border-radius: 0.5rem;
+        grid-template-columns: 33.34% 33.34% 33.34%;
+        grid-template-rows: 3rem 18rem;
+        grid-template-areas:
+                            "div-publicidad div-publicidad div-publicidad"
+                            "div-carrousel-1 div-carrousel-2 div-carrousel-3";
+        
+        .div-publicidad{
+            grid-area: div-publicidad;
+            text-align: center;
+            a{
+                text-decoration: none;
+                .div-a-publicidad{
+                    position: relative;
+                    color: $color-texto-gris;
+                    top: 2.3rem;
+                    font-weight: 300;
+                    font-family: $font;
+                    text-decoration: underline 1px;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        .div-carrousel-1{
+            grid-area: div-carrousel-1;
+            align-self: center;
+            .size-carrousel-1{
+                width: 90%;
+                margin-left: 0.6rem;
+                .border-carrousel-1{
+                    border-radius: 1rem;
+                }
+            }
+        }
+        .div-carrousel-2{
+            grid-area: div-carrousel-2;
+            align-self: center;
+            .size-carrousel-2{
+                width: 90%;
+                margin-left: 0.6rem;
+                .border-carrousel-2{
+                    border-radius: 1rem;
+                }
+            }
+        }
+        .div-carrousel-3{
+            grid-area: div-carrousel-3;
+            align-self: center;
+            .size-carrousel-3{
+                width: 90%;
+                margin-left: 0.6rem;
+                .border-carrousel-3{
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+}

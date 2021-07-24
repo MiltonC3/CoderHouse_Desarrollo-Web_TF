@@ -1,0 +1,39 @@
+.desktop{
+    .div-header{
+        height: 7rem;
+        background-color:$bgcolor-header-nav-footer;
+        div{
+            .logo-header{
+                @include logo-header(17rem,1.8rem,1rem);
+            }
+        }
+        div{
+            .icon-usuario-desktop{
+                position: absolute;
+                width: 3rem;
+                top: 2rem;
+                left: 89%;
+                opacity: 0.7;
+                &:hover{
+                    opacity: 1;
+                }
+                
+            }
+            .icon-usuario-desktop-active{
+                position: absolute;
+                width: 3rem;
+                top: 2rem;
+                left: 89%;
+                opacity: 1;
+            }
+        }
+        div{
+            .icon-carrito-desktop{
+                @include icon-carrito(1.9rem,2.6rem,95%,0.7);
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }  
+    }
+}
