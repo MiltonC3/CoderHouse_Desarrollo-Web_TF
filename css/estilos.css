@@ -87,7 +87,7 @@ body {
       border-radius: 0.5rem;
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 20% 80%;
-      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
+      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
       .section-publicidad .row-publicidad-index .div-publicidad {
         grid-area: div-publicidad;
         text-align: center; }
@@ -134,7 +134,7 @@ body {
       border-radius: 0.5rem;
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 20% 80%;
-      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
+      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
       .section-publicidad .row-publicidad-index .div-publicidad {
         grid-area: div-publicidad;
         text-align: center; }
@@ -181,7 +181,7 @@ body {
       height: 3.5rem;
       left: 0;
       font-weight: 300;
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
       color: #c0c0c0;
@@ -253,7 +253,7 @@ body {
       height: 3.5rem;
       left: 0;
       font-weight: 300;
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
       color: #c0c0c0;
@@ -313,6 +313,221 @@ body {
           margin-right: 0; } }
 
 @media only screen and (max-width: 575px) {
+  .section-paginas-productos {
+    position: relative;
+    height: 120rem;
+    margin-top: 7rem; }
+    .section-paginas-productos .grid-padre-productos {
+      display: grid;
+      position: relative;
+      width: 100%;
+      height: 130rem;
+      grid-template-columns: 100%;
+      grid-template-rows: 18% 28% 21% 5% 18%;
+      grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-caracteristicas-productos"; }
+      .section-paginas-productos .grid-padre-productos .grid-img-productos {
+        grid-area: grid-img-productos;
+        width: 75%;
+        justify-self: center;
+        align-self: center;
+        border-radius: 0.5rem; }
+      .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos {
+        grid-area: grid-caracteristicas-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas {
+          position: relative;
+          left: 5%;
+          width: 90%;
+          height: 90%; }
+          .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas .li-caracteristicas-productos {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            color: #c0c0c0;
+            font-size: 1.1rem; }
+      .section-paginas-productos .grid-padre-productos .grid-compra-productos {
+        grid-area: grid-compra-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
+          position: relative;
+          top: 1rem;
+          left: 5%;
+          height: 5rem;
+          width: 90%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h5-compra {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            position: relative;
+            top: 1rem;
+            top: 0.5rem;
+            font-size: 1.7rem;
+            color: #c0c0c0; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
+          position: relative;
+          left: 5%;
+          height: 8rem;
+          width: 90%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
+            color: #5f9ea0;
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2rem;
+            font-size: 1rem;
+            font-weight: 300; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
+            position: relative;
+            top: 2rem;
+            color: #949494;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
+            position: relative;
+            left: 2rem;
+            height: 9rem; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
+              width: 25rem;
+              height: 2rem;
+              font-size: 1.2rem;
+              border-radius: 0.4rem;
+              font-weight: 300;
+              font-family: "Mukta", sans-serif;
+              text-align: start;
+              opacity: 0.5; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
+          position: relative;
+          left: 5%;
+          width: 90%;
+          height: 11rem;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
+            position: relative;
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            top: 1.8rem;
+            font-size: 2rem;
+            color: #c0c0c0; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra {
+            position: relative;
+            top: 2.5rem;
+            font-family: "Mukta", sans-serif;
+            color: #c0c0c0;
+            font-size: 1.1rem;
+            font-weight: 200; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra .strong-cuotas {
+              color: #F27649;
+              font-size: 1rem;
+              font-size: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
+            position: relative;
+            top: 3rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
+            display: flex;
+            position: relative;
+            top: 7rem;
+            flex-direction: column; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              border: none;
+              transition: 1s;
+              background-color: #5f9ea0; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #5f9ea0; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              border: none;
+              margin-top: 2rem;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              background-color: #F27649;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #F27649; }
+      .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
+        grid-area: grid-pagos-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
+          position: relative;
+          left: 5%;
+          width: 90%;
+          height: 100%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h5-medios-pagos {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 1rem;
+            font-size: 1.5rem;
+            color: #c0c0c0;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h6-pagos {
+            font-family: "Mukta", sans-serif;
+            font-size: 1.2rem;
+            color: #949494;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
+            position: relative;
+            top: 1.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
+            position: relative;
+            top: 3.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
+            position: relative;
+            top: 4.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
+            position: relative;
+            top: 2rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
+            position: relative;
+            top: 3.5rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
+            position: relative;
+            top: 5rem;
+            width: 12rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
+            position: relative;
+            top: 7rem;
+            left: 0.5rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+      .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
+        grid-area: grid-garantia-productos;
+        width: 100%;
+        height: 100%; }
   .section-nosotros {
     height: 80rem;
     display: flex;
@@ -640,7 +855,7 @@ body {
         left: 26%;
         grid-template-columns: 50% 50%;
         grid-template-rows: 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 10%;
-        grid-template-areas: "input-registro-1" "input-registro-2" "input-registro-3" "input-registro-4" "input-registro-5" "input-registro-6" "input-registro-7" "input-registro-8"  "input-registro-9" "input-registro-10"  "input-registro-11" "input-registro-12" "div-boton-crear-cuenta"; }
+        grid-template-areas: "input-registro-1" "input-registro-2" "input-registro-3" "input-registro-4" "input-registro-5" "input-registro-6" "input-registro-7" "input-registro-8"  "input-registro-9" "input-registro-10"  "input-registro-11" "input-registro-12" "div-boton-crear-cuenta"; }
         .section-registro .div-registro .div-grid-registro .input-registro-1 {
           grid-area: input-registro-1; }
         .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -700,7 +915,7 @@ body {
     background-color: #000000;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 7rem 4rem;
+    grid-template-rows: 15vh 10vh;
     grid-template-areas: "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2" "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright"; }
     .footer__contenedor-padre .footer__div-footer1 {
       grid-area: footer__div-footer1; }
@@ -771,7 +986,7 @@ body {
         font-family: "Mukta", sans-serif;
         position: relative;
         top: 0.5rem;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         right: 0.3rem; }
     .footer__contenedor-padre .footer__telefono {
       grid-area: footer__div-telefono; }
@@ -780,7 +995,7 @@ body {
         text-align: center;
         font-family: "Mukta", sans-serif;
         position: relative;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         top: 0.5rem; }
     .footer__contenedor-padre .telefono-bordes {
       border-left: cadetblue 1px solid;
@@ -818,7 +1033,7 @@ body {
         position: relative;
         top: 0.5rem;
         margin-left: 0.3rem;
-        font-size: 0.7rem; }
+        font-size: 0.9rem; }
     .footer__contenedor-padre .footer__div-footer2 {
       grid-area: footer__div-footer2; } }
 
@@ -890,7 +1105,7 @@ body {
       border-radius: 0.5rem;
       grid-template-columns: 33.34% 33.34% 33.34%;
       grid-template-rows: 3rem 18rem;
-      grid-template-areas: "div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-2 div-carrousel-3"; }
+      grid-template-areas: "div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-2 div-carrousel-3"; }
       .section-publicidad .row-publicidad-index .div-publicidad {
         grid-area: div-publicidad;
         text-align: center; }
@@ -937,11 +1152,11 @@ body {
     margin-bottom: 3rem; }
     .section-productos .titulo-productos {
       position: relative;
-      width: 100%;
+      width: 99.5%;
       height: 3.5rem;
       left: 0;
       font-weight: 300;
-      font-size: 1.8rem;
+      font-size: 1.9rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
       color: #c0c0c0;
@@ -1007,11 +1222,11 @@ body {
     margin-bottom: 4rem; }
     .section-productos .titulo-productos {
       position: relative;
-      width: 100%;
+      width: 99%;
       height: 3.5rem;
       left: 0;
       font-weight: 300;
-      font-size: 1.9rem;
+      font-size: 2rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
       color: #c0c0c0;
@@ -1067,6 +1282,443 @@ body {
           margin-top: 0;
           margin-left: 1rem;
           margin-right: 0; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
+  .section-paginas-productos {
+    position: relative;
+    height: 130rem;
+    margin-top: 8rem; }
+    .section-paginas-productos .grid-padre-productos {
+      display: grid;
+      position: relative;
+      width: 100%;
+      height: 130rem;
+      grid-template-columns: 100%;
+      grid-template-rows: 20% 28% 19% 5% 18%;
+      grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-caracteristicas-productos"; }
+      .section-paginas-productos .grid-padre-productos .grid-img-productos {
+        grid-area: grid-img-productos;
+        width: 75%;
+        justify-self: center;
+        align-self: center;
+        border-radius: 0.5rem; }
+      .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos {
+        grid-area: grid-caracteristicas-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas {
+          position: relative;
+          left: 5%;
+          width: 90%;
+          height: 90%; }
+          .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas .li-caracteristicas-productos {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            color: #c0c0c0;
+            font-size: 1.1rem; }
+      .section-paginas-productos .grid-padre-productos .grid-compra-productos {
+        grid-area: grid-compra-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
+          position: relative;
+          top: 1rem;
+          left: 5%;
+          height: 5rem;
+          width: 90%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h5-compra {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            position: relative;
+            top: 1rem;
+            top: 0.5rem;
+            font-size: 1.7rem;
+            color: #c0c0c0; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
+          position: relative;
+          left: 5%;
+          height: 8rem;
+          width: 90%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
+            color: #5f9ea0;
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2rem;
+            font-size: 1rem;
+            font-weight: 300; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
+            position: relative;
+            top: 2rem;
+            color: #949494;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
+            position: relative;
+            left: 2rem;
+            height: 9rem; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
+              width: 25rem;
+              height: 2rem;
+              font-size: 1.2rem;
+              border-radius: 0.4rem;
+              font-weight: 300;
+              font-family: "Mukta", sans-serif;
+              text-align: start;
+              opacity: 0.5; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
+          position: relative;
+          left: 5%;
+          width: 90%;
+          height: 11rem;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
+            position: relative;
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            top: 1.8rem;
+            font-size: 2rem;
+            color: #c0c0c0; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra {
+            position: relative;
+            top: 2.5rem;
+            font-family: "Mukta", sans-serif;
+            color: #c0c0c0;
+            font-size: 1.1rem;
+            font-weight: 200; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra .strong-cuotas {
+              color: #F27649;
+              font-size: 1rem;
+              font-size: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
+            position: relative;
+            top: 3rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
+            display: flex;
+            position: relative;
+            top: 7rem;
+            flex-direction: column; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              border: none;
+              transition: 1s;
+              background-color: #5f9ea0; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #5f9ea0; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              border: none;
+              margin-top: 2rem;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              background-color: #F27649;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #F27649; }
+      .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
+        grid-area: grid-pagos-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
+          position: relative;
+          left: 5%;
+          width: 90%;
+          height: 100%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h5-medios-pagos {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 1rem;
+            font-size: 1.5rem;
+            color: #c0c0c0;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h6-pagos {
+            font-family: "Mukta", sans-serif;
+            font-size: 1.2rem;
+            color: #949494;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
+            position: relative;
+            top: 1.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
+            position: relative;
+            top: 3.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
+            position: relative;
+            top: 4.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
+            position: relative;
+            top: 2rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
+            position: relative;
+            top: 3.5rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
+            position: relative;
+            top: 5rem;
+            width: 12rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
+            position: relative;
+            top: 5.5rem;
+            left: 1.5rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+      .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
+        grid-area: grid-garantia-productos;
+        width: 100%;
+        height: 100%; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 768px) and (max-width: 991px) {
+  .section-paginas-productos {
+    position: relative;
+    height: 75rem;
+    margin-top: 10rem; }
+    .section-paginas-productos .grid-padre-productos {
+      display: grid;
+      position: relative;
+      width: 100%;
+      height: 70rem;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 40% 10%;
+      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-caracteristicas-productos grid-pagos-productos" "grid-caracteristicas-productos grid-garantia-productos"; }
+      .section-paginas-productos .grid-padre-productos .grid-img-productos {
+        grid-area: grid-img-productos;
+        width: 90%;
+        justify-self: center;
+        align-self: center;
+        border-radius: 0.5rem; }
+      .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos {
+        grid-area: grid-caracteristicas-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas {
+          position: relative;
+          top: 5%;
+          left: 5%;
+          width: 90%;
+          height: 90%; }
+          .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas .li-caracteristicas-productos {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            color: #c0c0c0;
+            font-size: 1.1rem; }
+      .section-paginas-productos .grid-padre-productos .grid-compra-productos {
+        grid-area: grid-compra-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
+          position: relative;
+          left: 10%;
+          height: 5rem;
+          width: 70%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h5-compra {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            position: relative;
+            top: 1rem;
+            top: 0.5rem;
+            font-size: 1.7rem;
+            color: #c0c0c0; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
+          position: relative;
+          left: 10%;
+          height: 8rem;
+          width: 70%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
+            color: #5f9ea0;
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2rem;
+            font-size: 1rem;
+            font-weight: 300; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
+            position: relative;
+            top: 2rem;
+            color: #949494;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
+            position: relative;
+            left: 2rem;
+            height: 9rem; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
+              width: 25rem;
+              height: 2rem;
+              font-size: 1.2rem;
+              border-radius: 0.4rem;
+              font-weight: 300;
+              font-family: "Mukta", sans-serif;
+              text-align: start;
+              opacity: 0.5; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
+          position: relative;
+          left: 10%;
+          width: 70%;
+          height: 11rem;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
+            position: relative;
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            top: 1.8rem;
+            font-size: 2rem;
+            color: #c0c0c0; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra {
+            position: relative;
+            top: 2.5rem;
+            font-family: "Mukta", sans-serif;
+            color: #c0c0c0;
+            font-size: 1.1rem;
+            font-weight: 200; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra .strong-cuotas {
+              color: #F27649;
+              font-size: 1rem;
+              font-size: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
+            position: relative;
+            top: 3rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
+            display: flex;
+            position: relative;
+            top: 7rem;
+            flex-direction: column; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              border: none;
+              transition: 1s;
+              background-color: #5f9ea0; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #5f9ea0; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              border: none;
+              margin-top: 2rem;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              background-color: #F27649;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #F27649; }
+      .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
+        grid-area: grid-pagos-productos;
+        width: 100%;
+        height: 100%;
+        border-left: 1px solid #444444; }
+        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
+          position: relative;
+          left: 10%;
+          width: 70%;
+          height: 100%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h5-medios-pagos {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 1rem;
+            font-size: 1.5rem;
+            color: #c0c0c0;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h6-pagos {
+            font-family: "Mukta", sans-serif;
+            font-size: 1.2rem;
+            color: #949494;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
+            position: relative;
+            top: 1.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
+            position: relative;
+            top: 3.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
+            position: relative;
+            top: 4.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
+            position: relative;
+            top: 2rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
+            position: relative;
+            top: 3.5rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
+            position: relative;
+            top: 5rem;
+            width: 12rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
+            position: relative;
+            top: 5.5rem;
+            left: 1.5rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+      .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
+        grid-area: grid-garantia-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   .section-nosotros {
@@ -1393,7 +2045,7 @@ body {
         align-items: center;
         grid-template-columns: 50% 50%;
         grid-template-rows: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
-        grid-template-areas: "input-registro-1 input-registro-2" "input-registro-3 input-registro-4" "input-registro-5 input-registro-6" "input-registro-7 input-registro-8"  "input-registro-9 input-registro-10"  "input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta"; }
+        grid-template-areas: "input-registro-1 input-registro-2" "input-registro-3 input-registro-4" "input-registro-5 input-registro-6" "input-registro-7 input-registro-8"  "input-registro-9 input-registro-10"  "input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta"; }
         .section-registro .div-registro .div-grid-registro .input-registro-1 {
           grid-area: input-registro-1; }
         .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -1475,7 +2127,7 @@ body {
         align-items: center;
         grid-template-columns: 33.34% 33.34% 33.4%;
         grid-template-rows: 20% 20% 20% 20% 20%;
-        grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+        grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
         .section-registro .div-registro .div-grid-registro .input-registro-1 {
           grid-area: input-registro-1; }
         .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -1771,7 +2423,7 @@ body {
       margin-left: 5%;
       grid-template-columns: 33.34% 33.34% 33.34%;
       grid-template-rows: 26rem 6rem;
-      grid-template-areas: "div-carrousel-1 div-carrousel-2 div-carrousel-3" "div-publicidad div-publicidad div-publicidad"; }
+      grid-template-areas: "div-carrousel-1 div-carrousel-2 div-carrousel-3" "div-publicidad div-publicidad div-publicidad"; }
       .section-publicidad .row-publicidad-index .div-carrousel-1 {
         grid-area: div-carrousel-1;
         align-self: center; }
@@ -1859,15 +2511,15 @@ body {
     margin-bottom: 4rem; }
     .section-productos .titulo-productos {
       position: relative;
-      width: 89%;
+      width: 90%;
       height: 3.5rem;
       left: 10%;
       font-weight: 300;
-      font-size: 2rem;
+      font-size: 2.1rem;
       text-align: start;
       font-family: "Mukta", sans-serif;
       color: #c0c0c0;
-      border-bottom: 1px solid #c0c0c0; }
+      text-decoration: underline 1.5px; }
     .section-productos div .div-row-productos {
       position: relative;
       left: 5%;
@@ -1881,9 +2533,12 @@ body {
         height: 23rem;
         background-color: #0a0a0a;
         border: 1px solid #F27649;
+        transition: 1s;
         grid-template-columns: 50% 50%;
         grid-template-rows: 70% 15% 15%;
         grid-template-areas: "img-card img-card" "precio-card envio-card" "texto-card texto-card"; }
+        .section-productos div .div-row-productos .card-contenedor:hover {
+          box-shadow: 2px 2px 20px #3a3a3a; }
         .section-productos div .div-row-productos .card-contenedor .img-card {
           grid-area: img-card;
           width: 100%;
@@ -1925,7 +2580,7 @@ body {
 @media only screen and (min-width: 992px) and (min-width: 1400px) {
   .section-productos {
     position: relative;
-    left: 3%;
+    left: 3.5%;
     margin-top: 10rem;
     margin-bottom: 4rem; }
     .section-productos .titulo-productos {
@@ -1949,9 +2604,12 @@ body {
         height: 23rem;
         background-color: #0a0a0a;
         border: 1px solid #F27649;
+        transition: 1s;
         grid-template-columns: 50% 50%;
         grid-template-rows: 70% 15% 15%;
         grid-template-areas: "img-card img-card" "precio-card envio-card" "texto-card texto-card"; }
+        .section-productos div .div-row-productos .card-contenedor:hover {
+          box-shadow: 2px 2px 20px #3a3a3a; }
         .section-productos div .div-row-productos .card-contenedor .img-card {
           grid-area: img-card;
           width: 100%;
@@ -1991,6 +2649,226 @@ body {
           margin-right: 0; } }
 
 @media only screen and (min-width: 992px) {
+  .section-paginas-productos {
+    position: relative;
+    left: 3%;
+    height: 75rem;
+    margin-top: 11rem; }
+    .section-paginas-productos .grid-padre-productos {
+      display: grid;
+      position: relative;
+      left: 4%;
+      width: 90%;
+      height: 70rem;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 35% 15%;
+      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-caracteristicas-productos grid-pagos-productos" "grid-caracteristicas-productos grid-garantia-productos"; }
+      .section-paginas-productos .grid-padre-productos .grid-img-productos {
+        grid-area: grid-img-productos;
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+        border-radius: 0.5rem; }
+      .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos {
+        grid-area: grid-caracteristicas-productos;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas {
+          position: relative;
+          top: 10%;
+          left: 10%;
+          width: 80%;
+          height: 90%; }
+          .section-paginas-productos .grid-padre-productos .grid-caracteristicas-productos .ol-caracteristicas .li-caracteristicas-productos {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            color: #c0c0c0;
+            font-size: 1.1rem; }
+      .section-paginas-productos .grid-padre-productos .grid-compra-productos {
+        grid-area: grid-compra-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
+          position: relative;
+          left: 10%;
+          height: 5rem;
+          width: 70%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h5-compra {
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            position: relative;
+            top: 1rem;
+            top: 0.5rem;
+            font-size: 1.7rem;
+            color: #c0c0c0; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
+          position: relative;
+          left: 10%;
+          height: 8rem;
+          width: 70%;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
+            color: #5f9ea0;
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2rem;
+            font-size: 1rem;
+            font-weight: 300; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
+            position: relative;
+            top: 2rem;
+            color: #949494;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
+            position: relative;
+            left: 2rem;
+            height: 9rem; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
+              width: 25rem;
+              height: 2rem;
+              font-size: 1.2rem;
+              border-radius: 0.4rem;
+              font-weight: 300;
+              font-family: "Mukta", sans-serif;
+              text-align: start;
+              opacity: 0.5; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
+          position: relative;
+          left: 10%;
+          width: 70%;
+          height: 11rem;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
+            position: relative;
+            font-family: "Mukta", sans-serif;
+            font-weight: 200;
+            top: 1.8rem;
+            font-size: 2rem;
+            color: #c0c0c0; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra {
+            position: relative;
+            top: 2.5rem;
+            font-family: "Mukta", sans-serif;
+            color: #c0c0c0;
+            font-size: 1.1rem;
+            font-weight: 200; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .h6-cuotas-compra .strong-cuotas {
+              color: #F27649;
+              font-size: 1rem;
+              font-size: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
+            position: relative;
+            top: 3rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
+            display: flex;
+            position: relative;
+            top: 7rem;
+            flex-direction: column; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              border: none;
+              transition: 1s;
+              background-color: #5f9ea0; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #5f9ea0; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
+              width: 70%;
+              position: relative;
+              left: 15%;
+              border: none;
+              margin-top: 2rem;
+              height: 2.5rem;
+              border-radius: 0.5rem;
+              background-color: #F27649;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #F27649; }
+      .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
+        grid-area: grid-pagos-productos;
+        width: 100%;
+        height: 100%;
+        border-left: 1px solid #444444; }
+        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
+          position: relative;
+          left: 10%;
+          width: 70%;
+          height: 100%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h5-medios-pagos {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 1rem;
+            font-size: 1.5rem;
+            color: #c0c0c0;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h6-pagos {
+            font-family: "Mukta", sans-serif;
+            font-size: 1.2rem;
+            color: #949494;
+            font-weight: 200; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
+            position: relative;
+            top: 1.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
+            position: relative;
+            top: 3.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
+            position: relative;
+            top: 4.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
+            position: relative;
+            top: 2rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
+            position: relative;
+            top: 3.5rem;
+            width: 20rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
+            position: relative;
+            top: 5rem;
+            width: 12rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
+            position: relative;
+            top: 5.5rem;
+            left: 1.5rem;
+            color: #c0c0c0;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+      .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
+        grid-area: grid-garantia-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; }
   .section-nosotros {
     position: relative;
     left: 2%;
@@ -2007,7 +2885,7 @@ body {
       justify-content: space-around;
       align-items: center; }
       .section-nosotros .div-contenedor-nosotros div .titulo-nosotros {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-family: "Mukta", sans-serif;
         text-align: center;
         text-decoration: underline 1px;
@@ -2320,7 +3198,7 @@ body {
       align-items: center;
       grid-template-columns: 33.34% 33.34% 33.4%;
       grid-template-rows: 20% 20% 20% 20% 20%;
-      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
       .section-registro .div-registro .div-grid-registro .input-registro-1 {
         grid-area: input-registro-1; }
       .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -2402,7 +3280,7 @@ body {
       align-items: center;
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 25% 25% 25% 25%;
-      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3 input-registro-4" "input-registro-5 input-registro-6 input-registro-7 input-registro-8" "input-registro-9 input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3 input-registro-4" "input-registro-5 input-registro-6 input-registro-7 input-registro-8" "input-registro-9 input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
       .section-registro .div-registro .div-grid-registro .input-registro-1 {
         grid-area: input-registro-1; }
       .section-registro .div-registro .div-grid-registro .input-registro-2 {

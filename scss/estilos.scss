@@ -14,11 +14,12 @@
     @import "mobile-1-header-nav";
     @import "mobile-2-index";
     @import "mobile-3-productos";
-    @import "mobile-4-nosotros";
-    @import "mobile-5-ayuda";
-    @import "mobile-6-ingresar";
-    @import "mobile-7-registrarme";
-    @import "mobile-8-footer";
+    @import "mobile-4-paginas-productos";
+    @import "mobile-5-nosotros";
+    @import "mobile-6-ayuda";
+    @import "mobile-7-ingresar";
+    @import "mobile-8-registrarme";
+    @import "mobile-9-footer";
 }
 @media only screen and (min-width:576px) and (max-width:991px){
     .desktop{
@@ -27,11 +28,12 @@
     @import "tablet-1-header-nav";
     @import "tablet-2-index";
     @import "tablet-3-productos";
-    @import "tablet-4-nosotros";
-    @import "tablet-5-ayuda";
-    @import "tablet-6-ingresar";
-    @import "tablet-7-registrarme";
-    @import "tablet-8-footer";
+    @import "tablet-4-paginas-productos";
+    @import "tablet-5-nosotros";
+    @import "tablet-6-ayuda";
+    @import "tablet-7-ingresar";
+    @import "tablet-8-registrarme";
+    @import "tablet-9-footer";
 }
 @media only screen and(min-width:992px){
     .mobile{
@@ -41,9 +43,10 @@
     @import "desktop-2-nav";
     @import "desktop-3-index";
     @import "desktop-4-productos";
-    @import "desktop-5-nosotros";
-    @import "desktop-6-ayuda";
-    @import "desktop-7-ingresar";
-    @import "desktop-8-registrarme";
-    @import "desktop-9-footer";
+    @import "desktop-5-paginas-productos";
+    @import "desktop-6-nosotros";
+    @import "desktop-7-ayuda";
+    @import "desktop-8-ingresar";
+    @import "desktop-9-registrarme";
+    @import "desktop-10-footer";
 }

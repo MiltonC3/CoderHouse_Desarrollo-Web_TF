@@ -2,7 +2,7 @@
     .section-productos{
         @include section-productos(0,9rem,3rem);
         .titulo-productos{
-            @include titulo-productos(100%,0,3.5rem,1.8rem,center);
+            @include titulo-productos(99.5%,0,3.5rem,1.9rem,center);
             border-bottom: $bordes $color-texto-gris;
         }
         div{
@@ -45,7 +45,7 @@
     .section-productos{
         @include section-productos(0,8rem,4rem);
         .titulo-productos{
-            @include titulo-productos(100%,0,3.5rem,1.9rem,center);
+            @include titulo-productos(99%,0,3.5rem,2rem,center);
             border-bottom: $bordes $color-texto-gris;
         }
         div{

@@ -2,7 +2,7 @@
     background-color: $bgcolor-header-nav-footer;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 7rem 4rem;
+    grid-template-rows: 15vh 10vh;
     grid-template-areas: 
                         "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2"
                         "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright";
@@ -50,7 +50,7 @@
                 font-family: $font;
                 position: relative;
                 top: 0.5rem;
-                font-size: 0.7rem;
+                font-size: 0.9rem;
                 right: 0.3rem;
             }
         }
@@ -61,7 +61,7 @@
                 text-align: center;
                 font-family: $font;
                 position: relative;
-                font-size: 0.7rem;
+                font-size: 0.9rem;
                 top: 0.5rem;
             }
         }
@@ -96,7 +96,7 @@
                 position: relative;
                 top: 0.5rem;
                 margin-left: 0.3rem;
-                font-size: 0.7rem;
+                font-size: 0.9rem;
             }
         }
         .footer__div-footer2{
