@@ -30,7 +30,7 @@
                             }
                         }
                         .menu{
-                            @include menu-mobile(1.1rem,2rem);
+                            @include menu-mobile(1.15rem,2rem);
                         }
                         .ayuda{
                             border-bottom: $bordes-gris $bordes;

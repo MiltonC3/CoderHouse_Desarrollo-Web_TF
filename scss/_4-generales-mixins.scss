@@ -16,7 +16,6 @@
     left: $left;
 }
 @mixin icon-carrito($width,$top,$left,$opacity){
-    position: absolute;
     position: fixed;
     z-index: 1;
     width: $width;
