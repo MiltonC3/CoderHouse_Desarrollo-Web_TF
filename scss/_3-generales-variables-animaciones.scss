@@ -1,0 +1,11 @@
+$bordes: 1px solid;
+$font: 'Mukta', sans-serif;
+
+//animaciones//
+
+@mixin anim-infinito($name-anim){
+    animation-name: $name-anim;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+}

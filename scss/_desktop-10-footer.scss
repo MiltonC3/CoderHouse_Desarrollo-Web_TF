@@ -2,7 +2,7 @@
     background-color: $bgcolor-header-nav-footer;
     display: grid;
     grid-template-columns: 29.4% 15% 15% 15% 25.5%;
-    grid-template-rows: 10rem 8rem;
+    grid-template-rows: 10rem 7rem;
     grid-template-areas: 
                         "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2"
                         "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright";
@@ -55,21 +55,14 @@
             grid-area: footer__div-correo;
             justify-self: end;
             .footer__correo--texto{
-                color: $color-texto-footer;
-                font-family: $font;
-                position: relative;
-                top: 1rem;
+                @include texto-footer(1rem,1.1rem,center);
                 right: 2rem;
             }
         }
         .footer__telefono{
             grid-area: footer__div-telefono;
             .footer__telefono--texto{
-                color: $color-texto-footer;
-                text-align: center;
-                font-family: $font;
-                position: relative;
-                top: 1rem;
+                @include texto-footer(1rem,1.1rem,center);
             }
         }
         .telefono-bordes{
@@ -99,10 +92,7 @@
         .footer__copyright{
             grid-area: footer__div-copyright;
             .footer__copyright--texto{
-                color: $color-texto-footer;
-                font-family: $font;
-                position: relative;
-                top: 1rem;
+                @include texto-footer(1rem,1.1rem,start);
                 margin-left: 2rem;
             }
         }

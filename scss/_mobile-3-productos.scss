@@ -11,31 +11,32 @@
                 height: 150rem;
                 width: 100%;
                 .card-contenedor{
-                    @include card-contenedor(88vw,9.15rem);
-                    grid-template-columns: 40% 35% 25%;
+                    @include card-contenedor(88vw,10rem);
+                    grid-template-columns: 41% 35% 24%;
                     grid-template-rows: 50% 50%;
                     grid-template-areas: 
                                         "img-card precio-card envio-card"
                                         "img-card texto-card texto-card";
 
                     .img-card{
-                        @include img-card(9rem,0.4rem,0);
+                        @include img-card(9.85rem,0.4rem,0);
                         border-bottom-left-radius: 0.4rem;
                     }
                     .precio-card{
-                        @include precio-texto-cards(1.1rem,300);
-                        @include texto-card(precio-card,0.5rem,1.5rem,0);
+                        @include precio-texto-cards(1.3rem,200);
+                        @include texto-card(precio-card,0.5rem,2.3rem,0);
                     }
                     .envio-card{
                         @include precio-texto-cards(0.75rem,300);
-                        @include texto-card(envio-card,0.5rem,0,1rem);
+                        @include texto-card(envio-card,0.5rem,0,0.7rem);
                         color: $color1-bordes;
                         justify-self: end;
                     }
                     .texto-card{
                         @include precio-texto-cards(1rem,200);
-                        @include texto-card(texto-card,0,1.7rem,0);
-                        width: 75%;
+                        @include texto-card(texto-card,0,2.2rem,0);
+                        width: 78%;
+                        text-align: center;
                     }        
                 }
             }

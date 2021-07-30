@@ -46,21 +46,14 @@
             grid-area: footer__div-correo;
             justify-self: end;
             .footer__correo--texto{
-                color: $color-texto-footer;
-                font-family: $font;
-                position: relative;
-                top: 0.8rem;
+                @include texto-footer(0.8rem,1rem,center);
                 right: 1rem;
             }
         }
         .footer__telefono{
             grid-area: footer__div-telefono;
             .footer__telefono--texto{
-                color: $color-texto-footer;
-                text-align: center;
-                font-family: $font;
-                position: relative;
-                top: 0.8rem;
+                @include texto-footer(0.8rem,1rem,center);
             }
         }
         .telefono-bordes{
@@ -90,10 +83,7 @@
         .footer__copyright{
             grid-area: footer__div-copyright;
             .footer__copyright--texto{
-                color: $color-texto-footer;
-                font-family: $font;
-                position: relative;
-                top: 0.8rem;
+                @include texto-footer(0.8rem,1rem,start);
                 margin-left: 1rem;
             }
         }

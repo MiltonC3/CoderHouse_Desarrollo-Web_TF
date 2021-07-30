@@ -17,6 +17,14 @@ body {
       width: 14rem;
       top: 1.4rem;
       left: 1rem; }
+    .mobile header .nav div .div-carrito-mobile .icon-carrito-mobile {
+      position: relative;
+      position: fixed;
+      z-index: 1;
+      width: 1.7rem;
+      top: 1.8rem;
+      left: 77vw;
+      opacity: 1; }
     .mobile header .nav div .icon-menu-bordes {
       position: relative;
       left: 1rem;
@@ -44,14 +52,25 @@ body {
       margin-top: 1.5rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      font-weight: 300; }
-  .div-carrito-mobile .icon-carrito-mobile {
+      font-weight: 300; } }
+
+@media only screen and (max-width: 575px) and (max-width: 450px) {
+  .mobile header .nav div a .logo-header-mobile {
+    position: absolute;
+    position: fixed;
+    width: 13rem;
+    top: 1.4rem;
+    left: 0.5rem; }
+  .mobile header .nav div .div-carrito-mobile .icon-carrito-mobile {
+    position: relative;
     position: fixed;
     z-index: 1;
     width: 1.7rem;
-    top: 7rem;
-    left: 90%;
-    opacity: 1; }
+    top: 1.8rem;
+    left: 72vw;
+    opacity: 1; } }
+
+@media only screen and (max-width: 575px) {
   .section-logo-index div div .logo {
     position: relative;
     top: 7rem;
@@ -95,11 +114,11 @@ body {
           .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
             position: relative;
             text-decoration: underline 1px;
-            color: #c0c0c0;
+            color: #c7c7c7;
             top: 1.4rem;
             font-weight: 300;
             font-family: "Mukta", sans-serif;
-            font-size: 1rem; }
+            font-size: 0.95rem; }
       .section-publicidad .row-publicidad-index .div-carrousel-1 {
         margin-top: 1rem;
         grid-area: div-carrousel-1; }
@@ -134,39 +153,20 @@ body {
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 20% 80%;
       grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
-      .section-publicidad .row-publicidad-index .div-publicidad {
-        grid-area: div-publicidad;
-        text-align: center; }
-        .section-publicidad .row-publicidad-index .div-publicidad a {
-          text-decoration: none; }
-          .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
-            position: relative;
-            text-decoration: underline 1px;
-            color: #c0c0c0;
-            top: 1.4rem;
-            font-weight: 300;
-            font-family: "Mukta", sans-serif;
-            font-size: 0.9rem; }
       .section-publicidad .row-publicidad-index .div-carrousel-1 {
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         grid-area: div-carrousel-1; }
         .section-publicidad .row-publicidad-index .div-carrousel-1 .size-carrousel-1 {
           width: 87%;
           position: relative;
           left: 8%; }
-          .section-publicidad .row-publicidad-index .div-carrousel-1 .size-carrousel-1 .border-carrousel-1 {
-            border-radius: 0.5rem; }
       .section-publicidad .row-publicidad-index .div-carrousel-2 {
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         grid-area: div-carrousel-2; }
         .section-publicidad .row-publicidad-index .div-carrousel-2 .size-carrousel-2 {
           width: 87%;
           left: 4%;
-          position: relative; }
-          .section-publicidad .row-publicidad-index .div-carrousel-2 .size-carrousel-2 .border-carrousel-2 {
-            border-radius: 0.5rem; }
-      .section-publicidad .row-publicidad-index .div-carrousel-3 {
-        display: none; } }
+          position: relative; } }
 
 @media only screen and (max-width: 575px) and (max-width: 429px) {
   .section-productos {
@@ -183,8 +183,8 @@ body {
       font-size: 1.7rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c0c0c0;
-      border-bottom: 1px solid #c0c0c0; }
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
     .section-productos div .div-row-productos {
       position: relative;
       height: 150rem;
@@ -194,30 +194,30 @@ body {
         width: 88vw;
         text-decoration: none;
         border-radius: 0.4rem;
-        height: 9.15rem;
+        height: 10rem;
         background-color: #0a0a0a;
         border: 1px solid #F27649;
-        grid-template-columns: 40% 35% 25%;
+        grid-template-columns: 41% 35% 24%;
         grid-template-rows: 50% 50%;
         grid-template-areas: "img-card precio-card envio-card" "img-card texto-card texto-card"; }
         .section-productos div .div-row-productos .card-contenedor .img-card {
           grid-area: img-card;
-          width: 9rem;
+          width: 9.85rem;
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0;
           border-bottom-left-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
-          font-weight: 300;
-          font-size: 1.1rem;
+          font-weight: 200;
+          font-size: 1.3rem;
           grid-area: precio-card;
           align-self: center;
           margin-top: 0.5rem;
-          margin-left: 1.5rem;
+          margin-left: 2.3rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.75rem;
@@ -225,20 +225,21 @@ body {
           align-self: center;
           margin-top: 0.5rem;
           margin-left: 0;
-          margin-right: 1rem;
+          margin-right: 0.7rem;
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1rem;
           grid-area: texto-card;
           align-self: center;
           margin-top: 0;
-          margin-left: 1.7rem;
+          margin-left: 2.2rem;
           margin-right: 0;
-          width: 75%; } }
+          width: 78%;
+          text-align: center; } }
 
 @media only screen and (max-width: 575px) and (min-width: 430px) and (max-width: 575px) {
   .section-productos {
@@ -255,8 +256,8 @@ body {
       font-size: 1.7rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c0c0c0;
-      border-bottom: 1px solid #c0c0c0; }
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
     .section-productos div .div-row-productos {
       position: relative;
       height: 210rem;
@@ -279,7 +280,7 @@ body {
           border-top-right-radius: 0;
           border-bottom-left-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.4rem;
@@ -289,7 +290,7 @@ body {
           margin-left: 0;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -301,7 +302,7 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1.1rem;
@@ -313,16 +314,20 @@ body {
 
 @media only screen and (max-width: 575px) {
   .section-paginas-productos {
+    width: 100%;
     position: relative;
     height: 131rem;
-    margin-top: 6rem; }
+    margin-top: 6rem;
+    left: 0; }
     .section-paginas-productos .grid-padre-productos {
       display: grid;
-      position: relative;
       width: 100%;
+      position: relative;
       height: 125rem;
+      margin-top: 0;
+      left: 0;
       grid-template-columns: 100%;
-      grid-template-rows: 22% 29% 20% 7% 23%;
+      grid-template-rows: 22% 29% 21% 7% 22%;
       grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-descripcion-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
@@ -332,40 +337,42 @@ body {
         border-radius: 0.5rem; }
       .section-paginas-productos .grid-padre-productos .grid-compra-productos {
         grid-area: grid-compra-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
           position: relative;
-          top: 1rem;
-          left: 5%;
-          height: 5rem;
           width: 90%;
-          border-bottom: 1px solid #444444; }
+          height: 5rem;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: 1px solid #444444;
+          top: 1rem; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h2-titulo-producto {
             font-family: "Mukta", sans-serif;
-            font-weight: 200;
             position: relative;
-            top: 1rem;
             top: 0.5rem;
+            font-weight: 200;
             font-size: 1.7rem;
-            color: #c0c0c0; }
+            color: #c7c7c7; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
           position: relative;
-          left: 5%;
-          height: 8rem;
           width: 90%;
+          height: 8rem;
+          left: 5%;
+          border-top: none #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
-            color: #5f9ea0;
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 2rem;
+            font-weight: 300;
             font-size: 1rem;
-            font-weight: 300; }
+            color: #5f9ea0; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
             position: relative;
             top: 2rem;
-            color: #949494;
+            color: #a1a1a1;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -385,35 +392,42 @@ body {
               font-weight: 300;
               font-family: "Mukta", sans-serif;
               text-align: start;
-              opacity: 0.5; }
+              opacity: 0.5;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo:focus {
+                opacity: 1; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
           position: relative;
-          left: 5%;
           width: 90%;
           height: 11rem;
+          left: 5%;
+          border-top: none #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
-            position: relative;
             font-family: "Mukta", sans-serif;
-            font-weight: 200;
+            position: relative;
             top: 1.8rem;
+            font-weight: 200;
             font-size: 2rem;
-            color: #c0c0c0; }
+            color: #c7c7c7; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
+            font-family: "Mukta", sans-serif;
             position: relative;
             top: 2.5rem;
-            font-family: "Mukta", sans-serif;
-            color: #c0c0c0;
-            font-size: 1.1rem;
-            font-weight: 200; }
+            font-weight: 200;
+            font-size: 1rem;
+            color: #a1a1a1; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
-              color: #F27649;
+              font-family: "Mukta", sans-serif;
+              position: relative;
+              top: 0;
+              font-weight: 300;
               font-size: 1rem;
-              font-size: 200; }
+              color: #F27649; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
             position: relative;
             top: 3rem;
-            color: #c0c0c0;
+            color: #a1a1a1;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -428,24 +442,25 @@ body {
             flex-direction: column; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
               width: 70%;
-              position: relative;
-              left: 15%;
               height: 2.5rem;
-              border-radius: 0.5rem;
+              top: 0;
+              left: 15%;
               border: none;
-              transition: 1s;
-              background-color: #5f9ea0; }
+              position: relative;
+              border-radius: 0.5rem;
+              background-color: #5f9ea0;
+              transition: 1s; }
               .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
                 background-color: #0a0a0a;
                 color: #ffffff;
                 border: 1px solid #5f9ea0; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
               width: 70%;
-              position: relative;
+              height: 2.5rem;
+              top: 1rem;
               left: 15%;
               border: none;
-              margin-top: 1rem;
-              height: 2.5rem;
+              position: relative;
               border-radius: 0.5rem;
               background-color: #F27649;
               transition: 1s; }
@@ -455,27 +470,30 @@ body {
                 border: 1px solid #F27649; }
       .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
         grid-area: grid-pagos-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
           position: relative;
-          left: 5%;
           width: 90%;
           height: 100%;
+          left: 5%;
           border-top: 1px solid #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h3-medios-pagos {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 1rem;
+            font-weight: 200;
             font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            color: #c7c7c7; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
             font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 0;
+            font-weight: 200;
             font-size: 1.2rem;
-            color: #949494;
-            font-weight: 200; }
+            color: #a1a1a1; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
             position: relative;
             top: 1.5rem; }
@@ -499,35 +517,37 @@ body {
             width: 11rem; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
             position: relative;
-            margin-top: 1rem;
             top: 5rem;
-            left: 1rem;
-            text-align: center;
-            color: #949494;
+            color: #a1a1a1;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
             font-weight: 200;
-            border: none; }
+            border: none;
+            margin-top: 1rem;
+            left: 1rem;
+            display: block; }
             .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
               text-decoration: underline 1px; }
       .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
         grid-area: grid-garantia-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia {
           position: relative;
-          left: 5%;
           width: 90%;
           height: 100%;
+          left: 5%;
+          border-top: none #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .h3-garantia {
             font-family: "Mukta", sans-serif;
-            font-size: 1.5rem;
             position: relative;
             top: 1rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            font-weight: 200;
+            font-size: 1.5rem;
+            color: #c7c7c7; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
             display: flex;
             position: relative;
@@ -537,41 +557,47 @@ body {
               width: 2.4rem;
               height: 2.4rem; }
             .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .p-compra-protegida {
-              position: relative;
-              left: 1rem;
-              top: 0.7rem;
-              color: #949494;
               font-family: "Mukta", sans-serif;
-              font-weight: 200; }
+              position: relative;
+              top: 0.7rem;
+              font-weight: 200;
+              font-size: 1rem;
+              color: #a1a1a1;
+              left: 1rem; }
       .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
         grid-area: grid-descripcion-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
-          border-bottom: 1px solid #444444;
-          left: 5%;
-          height: 25%;
           position: relative;
-          width: 90%; }
+          width: 90%;
+          height: 20%;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion .h3-titulo-descripcion {
             font-family: "Mukta", sans-serif;
             position: relative;
-            text-align: center;
-            top: 2.5rem;
-            font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            top: 2rem;
+            font-weight: 200;
+            font-size: 1.4rem;
+            color: #c7c7c7;
+            text-align: center; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
           position: relative;
+          width: 90%;
+          height: 80%;
           left: 5%;
-          width: 90%; }
+          border-top: none #444444;
+          border-bottom: none #444444; }
           .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion .p-descripcion {
             font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2rem;
             font-weight: 200;
             font-size: 1.1rem;
-            position: relative;
-            color: #949494;
-            top: 2rem; } }
+            color: #a1a1a1; } }
 
 @media only screen and (max-width: 575px) and (max-width: 425px) {
   .section-paginas-productos .grid-padre-productos .grid-img-productos {
@@ -597,14 +623,14 @@ body {
         text-align: center;
         text-decoration: underline 1px;
         font-weight: 300;
-        color: #c0c0c0; }
+        color: #c7c7c7; }
       .section-nosotros .div-contenedor-nosotros div .p-texto-nosotros {
         position: relative;
         left: 5%;
         width: 90%;
         font-weight: 200;
         font-size: 0.9rem;
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif; }
       .section-nosotros .div-contenedor-nosotros div .img-nosotros {
         border-radius: 0.5rem;
@@ -620,7 +646,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 7rem;
       text-align: center;
@@ -630,7 +656,7 @@ body {
       text-align: center;
       text-decoration: none;
       font-weight: 200;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 8rem;
       text-align: center;
@@ -676,7 +702,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 75%;
           position: relative;
           left: 10%; }
@@ -693,7 +719,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 80%;
           position: relative;
           left: 10%; }
@@ -706,7 +732,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 80%;
           position: relative;
           left: 10%; }
@@ -718,7 +744,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -743,7 +769,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas1 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1rem;
@@ -775,7 +801,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas2 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1rem;
@@ -807,7 +833,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas3 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1rem;
@@ -828,7 +854,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 5rem;
       text-align: center;
@@ -889,7 +915,7 @@ body {
         text-align: center;
         text-decoration: underline 1px;
         font-weight: 300;
-        color: #c0c0c0;
+        color: #c7c7c7;
         position: relative;
         top: 1rem;
         text-align: center;
@@ -965,7 +991,7 @@ body {
     background-color: #000000;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 15vh 10vh;
+    grid-template-rows: 7rem 4.5rem;
     grid-template-areas: "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2" "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright"; }
     .footer__contenedor-padre .footer__div-footer1 {
       grid-area: footer__div-footer1; }
@@ -994,7 +1020,7 @@ body {
       border-radius: 50%; }
       .footer__contenedor-padre .footer__facebook .footer__icon-facebook--size {
         width: 1rem;
-        margin-left: 0.8rem;
+        margin-left: 0.85rem;
         margin-top: 0.8rem;
         opacity: 0.8; }
     .footer__contenedor-padre .footer__whatsapp {
@@ -1032,20 +1058,23 @@ body {
       grid-area: footer__div-correo;
       justify-self: end; }
       .footer__contenedor-padre .footer__correo .footer__correo--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
+        text-align: center;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 0.85rem;
         top: 0.5rem;
-        font-size: 0.70rem;
         right: 0.3rem; }
     .footer__contenedor-padre .footer__telefono {
       grid-area: footer__div-telefono; }
       .footer__contenedor-padre .footer__telefono .footer__telefono--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
         text-align: center;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
-        font-size: 0.70rem;
+        font-size: 0.85rem;
         top: 0.5rem; }
     .footer__contenedor-padre .telefono-bordes {
       border-left: cadetblue 1px solid;
@@ -1078,14 +1107,46 @@ body {
     .footer__contenedor-padre .footer__copyright {
       grid-area: footer__div-copyright; }
       .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
+        text-align: start;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 0.85rem;
         top: 0.5rem;
-        margin-left: 0.3rem;
-        font-size: 0.7rem; }
+        margin-left: 0.3rem; }
     .footer__contenedor-padre .footer__div-footer2 {
       grid-area: footer__div-footer2; } }
+
+@media only screen and (max-width: 575px) and (max-width: 410px) {
+  .footer__contenedor-padre .footer__correo .footer__correo--texto {
+    color: #8b8b8b;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 0.75rem;
+    top: 0.5rem;
+    right: 0.1rem; }
+  .footer__contenedor-padre .footer__telefono .footer__telefono--texto {
+    color: #8b8b8b;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 0.75rem;
+    top: 0.5rem; }
+  .footer__contenedor-padre .footer__copyright {
+    grid-area: footer__div-copyright; }
+    .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
+      color: #8b8b8b;
+      text-align: start;
+      font-family: "Mukta", sans-serif;
+      font-weight: 300;
+      position: relative;
+      font-size: 0.75rem;
+      top: 0.5rem;
+      margin-left: 0.1rem; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   .desktop {
@@ -1098,6 +1159,14 @@ body {
       width: 15rem;
       top: 1.3rem;
       left: 1rem; }
+    .mobile header .nav div .div-carrito-mobile .icon-carrito-mobile {
+      position: relative;
+      position: fixed;
+      z-index: 1;
+      width: 1.9rem;
+      top: 8rem;
+      left: 92%;
+      opacity: 1; }
     .mobile header .nav div div ul li .icon-usuario {
       width: 4rem; }
     .mobile header .nav div div ul li .margin-ayuda {
@@ -1116,13 +1185,6 @@ body {
       margin-top: 1rem;
       text-align: center;
       font-family: "Mukta", sans-serif; }
-  .div-carrito-mobile .icon-carrito-mobile {
-    position: fixed;
-    z-index: 1;
-    width: 1.9rem;
-    top: 8rem;
-    left: 92%;
-    opacity: 1; }
   .section-logo-index div div .logo {
     position: relative;
     top: 7rem;
@@ -1162,7 +1224,7 @@ body {
           text-decoration: none; }
           .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
             position: relative;
-            color: #c0c0c0;
+            color: #c7c7c7;
             top: 2.3rem;
             font-weight: 300;
             font-family: "Mukta", sans-serif;
@@ -1197,7 +1259,7 @@ body {
   .section-productos {
     position: relative;
     left: 0;
-    margin-top: 9rem;
+    margin-top: 8rem;
     margin-bottom: 3rem; }
     .section-productos .titulo-productos {
       position: relative;
@@ -1208,21 +1270,22 @@ body {
       font-size: 1.9rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c0c0c0;
-      border-bottom: 1px solid #c0c0c0; }
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
     .section-productos div .div-row-productos {
       position: relative;
-      height: 83rem; }
+      left: 1.5rem;
+      height: 138rem; }
       .section-productos div .div-row-productos .card-contenedor {
         display: grid;
-        width: 9.5rem;
+        width: 12.5rem;
         text-decoration: none;
         border-radius: 0.4rem;
-        height: 18rem;
+        height: 19.5rem;
         background-color: #0a0a0a;
         border: 1px solid #F27649;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60% 5% 35%;
+        grid-template-rows: 63% 18% 19%;
         grid-template-areas: "img-card img-card" "precio-card envio-card" "texto-card texto-card"; }
         .section-productos div .div-row-productos .card-contenedor .img-card {
           grid-area: img-card;
@@ -1230,7 +1293,7 @@ body {
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.2rem;
@@ -1240,7 +1303,7 @@ body {
           margin-left: 1rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -1252,15 +1315,18 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1rem;
           grid-area: texto-card;
           align-self: center;
-          margin-top: 0.5rem;
-          margin-left: 0rem;
+          margin-top: 0;
+          margin-left: 0;
           margin-right: 0;
+          width: 95%;
+          position: relative;
+          left: 2.5%;
           text-align: center; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 768px) and (max-width: 991px) {
@@ -1278,8 +1344,8 @@ body {
       font-size: 2rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c0c0c0;
-      border-bottom: 1px solid #c0c0c0; }
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
     .section-productos div .div-row-productos {
       position: relative;
       height: 95rem; }
@@ -1292,7 +1358,7 @@ body {
         background-color: #0a0a0a;
         border: 1px solid #F27649;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 70% 15% 15%;
+        grid-template-rows: 65% 17% 18%;
         grid-template-areas: "img-card img-card" "precio-card envio-card" "texto-card texto-card"; }
         .section-productos div .div-row-productos .card-contenedor .img-card {
           grid-area: img-card;
@@ -1300,7 +1366,7 @@ body {
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.2rem;
@@ -1310,7 +1376,7 @@ body {
           margin-left: 1rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -1322,15 +1388,304 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1rem;
           grid-area: texto-card;
           align-self: center;
           margin-top: 0;
-          margin-left: 1rem;
-          margin-right: 0; } }
+          margin-left: 0;
+          margin-right: 0;
+          text-align: center;
+          position: relative;
+          width: 95%;
+          left: 2.5%; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .section-paginas-productos {
+    width: 100%;
+    position: relative;
+    height: 72rem;
+    margin-top: 10rem;
+    left: 0; }
+    .section-paginas-productos .grid-padre-productos {
+      display: grid;
+      width: 100%;
+      position: relative;
+      height: 70rem;
+      margin-top: 0;
+      left: 0;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 48% 38% 14%;
+      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
+      .section-paginas-productos .grid-padre-productos .grid-img-productos {
+        grid-area: grid-img-productos;
+        width: 90%;
+        justify-self: center;
+        align-self: center;
+        border-radius: 0.5rem; }
+      .section-paginas-productos .grid-padre-productos .grid-compra-productos {
+        grid-area: grid-compra-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
+          position: relative;
+          width: 90%;
+          height: 5rem;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h2-titulo-producto {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 0.5rem;
+            font-weight: 200;
+            font-size: 1.7rem;
+            color: #c7c7c7; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
+          position: relative;
+          width: 90%;
+          height: 8rem;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2rem;
+            font-weight: 300;
+            font-size: 1rem;
+            color: #5f9ea0; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
+            position: relative;
+            top: 2rem;
+            color: #a1a1a1;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
+            position: relative;
+            left: 2rem;
+            height: 9rem; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
+              width: 25rem;
+              height: 2rem;
+              font-size: 1.2rem;
+              border-radius: 0.4rem;
+              font-weight: 300;
+              font-family: "Mukta", sans-serif;
+              text-align: start;
+              opacity: 0.5;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo:focus {
+                opacity: 1; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
+          position: relative;
+          width: 90%;
+          height: 11rem;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 1.8rem;
+            font-weight: 200;
+            font-size: 2rem;
+            color: #c7c7c7; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2.5rem;
+            font-weight: 200;
+            font-size: 1.1rem;
+            color: #a1a1a1; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
+              font-family: "Mukta", sans-serif;
+              position: relative;
+              top: 0;
+              font-weight: 300;
+              font-size: 1.1rem;
+              color: #F27649; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
+            position: relative;
+            top: 3rem;
+            color: #a1a1a1;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
+            display: flex;
+            position: relative;
+            top: 5.7rem;
+            flex-direction: column; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
+              width: 70%;
+              height: 2.5rem;
+              top: 0;
+              left: 15%;
+              border: none;
+              position: relative;
+              border-radius: 0.5rem;
+              background-color: #5f9ea0;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #5f9ea0; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
+              width: 70%;
+              height: 2.5rem;
+              top: 1rem;
+              left: 15%;
+              border: none;
+              position: relative;
+              border-radius: 0.5rem;
+              background-color: #F27649;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
+                background-color: #0a0a0a;
+                color: #ffffff;
+                border: 1px solid #F27649; }
+      .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
+        grid-area: grid-pagos-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
+          position: relative;
+          width: 90%;
+          height: 100%;
+          left: 5%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h3-medios-pagos {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 1rem;
+            font-weight: 200;
+            font-size: 1.5rem;
+            color: #c7c7c7; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 0;
+            font-weight: 200;
+            font-size: 1.2rem;
+            color: #a1a1a1; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
+            position: relative;
+            top: 1.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
+            position: relative;
+            top: 3.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
+            position: relative;
+            top: 4.5rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
+            position: relative;
+            top: 2rem;
+            width: 18rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
+            position: relative;
+            top: 3.5rem;
+            width: 18rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
+            position: relative;
+            top: 5rem;
+            width: 12rem; }
+          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
+            position: relative;
+            top: 5.5rem;
+            color: #a1a1a1;
+            font-size: 1rem;
+            font-family: "Mukta", sans-serif;
+            background-color: #0a0a0a;
+            font-weight: 200;
+            border: none;
+            left: 1.5rem; }
+            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
+              text-decoration: underline 1px; }
+      .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
+        grid-area: grid-garantia-productos;
+        border-left: 1px solid #444444;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia {
+          position: relative;
+          width: 90%;
+          height: 100%;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: none #444444;
+          top: 1rem; }
+          .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .h3-garantia {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 0;
+            font-weight: 200;
+            font-size: 1.5rem;
+            color: #c7c7c7; }
+          .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
+            display: flex;
+            position: relative;
+            width: 95%;
+            top: 1rem; }
+            .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .icon-compra-protegida {
+              width: 2.4rem;
+              height: 2.4rem; }
+            .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .p-compra-protegida {
+              font-family: "Mukta", sans-serif;
+              position: relative;
+              top: 0;
+              font-weight: 200;
+              font-size: 1rem;
+              color: #a1a1a1;
+              left: 1rem; }
+      .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
+        grid-area: grid-descripcion-productos;
+        border-left: none #444444;
+        width: 100%;
+        height: 100%; }
+        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
+          position: relative;
+          width: 90%;
+          height: 20%;
+          left: 5%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion .h3-titulo-descripcion {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 2.5rem;
+            font-weight: 200;
+            font-size: 1.5rem;
+            color: #c7c7c7;
+            text-align: center; }
+        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
+          position: relative;
+          width: 90%;
+          height: 80%;
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: none #444444; }
+          .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion .p-descripcion {
+            font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 3rem;
+            font-weight: 200;
+            font-size: 1.1rem;
+            color: #a1a1a1; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
   .section-paginas-productos {
@@ -1353,505 +1708,81 @@ body {
         border-radius: 0.5rem; }
       .section-paginas-productos .grid-padre-productos .grid-compra-productos {
         grid-area: grid-compra-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
+          top: 1rem; }
+        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
+          display: flex;
           position: relative;
-          top: 1rem;
-          left: 5%;
-          height: 5rem;
-          width: 90%;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h2-titulo-producto {
-            font-family: "Mukta", sans-serif;
-            font-weight: 200;
-            position: relative;
-            top: 1rem;
-            top: 0.5rem;
-            font-size: 1.7rem;
-            color: #c0c0c0; }
-        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
-          position: relative;
-          left: 5%;
-          height: 8rem;
-          width: 90%;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
-            color: #5f9ea0;
-            font-family: "Mukta", sans-serif;
-            position: relative;
+          top: 6.5rem;
+          flex-direction: column; }
+          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
+            width: 70%;
+            height: 2.5rem;
             top: 2rem;
-            font-size: 1rem;
-            font-weight: 300; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
+            left: 15%;
+            border: none;
             position: relative;
-            top: 2rem;
-            color: #949494;
-            font-size: 1rem;
-            font-family: "Mukta", sans-serif;
-            background-color: #0a0a0a;
-            font-weight: 200;
-            border: none; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
-              text-decoration: underline 1px; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
-            position: relative;
-            left: 2rem;
-            height: 9rem; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
-              width: 25rem;
-              height: 2rem;
-              font-size: 1.2rem;
-              border-radius: 0.4rem;
-              font-weight: 300;
-              font-family: "Mukta", sans-serif;
-              text-align: start;
-              opacity: 0.5; }
-        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
-          position: relative;
-          left: 5%;
-          width: 90%;
-          height: 11rem;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
-            position: relative;
-            font-family: "Mukta", sans-serif;
-            font-weight: 200;
-            top: 1.8rem;
-            font-size: 2rem;
-            color: #c0c0c0; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
-            position: relative;
-            top: 2.5rem;
-            font-family: "Mukta", sans-serif;
-            color: #c0c0c0;
-            font-size: 1.1rem;
-            font-weight: 200; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
-              color: #F27649;
-              font-size: 1rem;
-              font-size: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
-            position: relative;
-            top: 3rem;
-            color: #c0c0c0;
-            font-size: 1rem;
-            font-family: "Mukta", sans-serif;
-            background-color: #0a0a0a;
-            font-weight: 200;
-            border: none; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
-              text-decoration: underline 1px; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
-            display: flex;
-            position: relative;
-            top: 6.5rem;
-            flex-direction: column; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
-              width: 70%;
-              position: relative;
-              left: 15%;
-              height: 2.5rem;
-              border-radius: 0.5rem;
-              border: none;
-              transition: 1s;
-              background-color: #5f9ea0; }
-              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
-                background-color: #0a0a0a;
-                color: #ffffff;
-                border: 1px solid #5f9ea0; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
-              width: 70%;
-              position: relative;
-              left: 15%;
-              border: none;
-              margin-top: 2rem;
-              height: 2.5rem;
-              border-radius: 0.5rem;
-              background-color: #F27649;
-              transition: 1s; }
-              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
-                background-color: #0a0a0a;
-                color: #ffffff;
-                border: 1px solid #F27649; }
+            border-radius: 0.5rem;
+            background-color: #F27649;
+            transition: 1s; }
+            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
+              background-color: #0a0a0a;
+              color: #ffffff;
+              border: 1px solid #F27649; }
       .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
         grid-area: grid-pagos-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
-        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
-          position: relative;
-          left: 5%;
-          width: 90%;
-          height: 100%;
-          border-top: 1px solid #444444;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h3-medios-pagos {
-            font-family: "Mukta", sans-serif;
-            position: relative;
-            top: 1rem;
-            font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
-            font-family: "Mukta", sans-serif;
-            font-size: 1.2rem;
-            color: #949494;
-            font-weight: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
-            position: relative;
-            top: 1.5rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
-            position: relative;
-            top: 3.5rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
-            position: relative;
-            top: 4.5rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
-            position: relative;
-            top: 2rem;
-            width: 20rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
-            position: relative;
-            top: 3.5rem;
-            width: 20rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
-            position: relative;
-            top: 5rem;
-            width: 12rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
-            position: relative;
-            top: 5.5rem;
-            left: 1.5rem;
-            color: #c0c0c0;
-            font-size: 1rem;
-            font-family: "Mukta", sans-serif;
-            background-color: #0a0a0a;
-            font-weight: 200;
-            border: none; }
-            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
-              text-decoration: underline 1px; }
+        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
+          top: 3.5rem;
+          width: 20rem; }
       .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
         grid-area: grid-garantia-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia {
           position: relative;
-          left: 5%;
           width: 90%;
           height: 100%;
-          border-bottom: 1px solid #444444; }
+          left: 5%;
+          border-top: none #444444;
+          border-bottom: none #444444; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .h3-garantia {
             font-family: "Mukta", sans-serif;
-            font-size: 1.5rem;
             position: relative;
             top: 1rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            font-weight: 200;
+            font-size: 1.5rem;
+            color: #c7c7c7; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
-            display: flex;
-            position: relative;
-            width: 95%;
             top: 2.5rem; }
-            .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .icon-compra-protegida {
-              width: 2.4rem;
-              height: 2.4rem; }
             .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .p-compra-protegida {
+              font-family: "Mukta", sans-serif;
               position: relative;
-              left: 1rem;
               top: 0.7rem;
-              color: #949494;
-              font-family: "Mukta", sans-serif;
-              font-weight: 200; }
-      .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
-        grid-area: grid-descripcion-productos;
-        width: 100%;
-        height: 100%; }
-        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
-          border-top: 1px solid #444444;
-          border-bottom: 1px solid #444444;
-          left: 5%;
-          height: 20%;
-          position: relative;
-          width: 90%; }
-          .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion .h3-titulo-descripcion {
-            font-family: "Mukta", sans-serif;
-            position: relative;
-            text-align: center;
-            top: 2.5rem;
-            font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
-        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
-          position: relative;
-          left: 5%;
-          width: 90%; }
-          .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion .p-descripcion {
-            font-family: "Mukta", sans-serif;
-            font-weight: 200;
-            font-size: 1.1rem;
-            position: relative;
-            color: #949494;
-            top: 3rem; } }
-
-@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 768px) and (max-width: 991px) {
-  .section-paginas-productos {
-    position: relative;
-    height: 72rem;
-    margin-top: 10rem; }
-    .section-paginas-productos .grid-padre-productos {
-      display: grid;
-      position: relative;
-      width: 100%;
-      height: 70rem;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 48% 38% 14%;
-      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
-      .section-paginas-productos .grid-padre-productos .grid-img-productos {
-        grid-area: grid-img-productos;
-        width: 90%;
-        justify-self: center;
-        align-self: center;
-        border-radius: 0.5rem; }
-      .section-paginas-productos .grid-padre-productos .grid-compra-productos {
-        grid-area: grid-compra-productos;
-        border-left: 1px solid #444444;
-        width: 100%;
-        height: 100%; }
-        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
-          position: relative;
-          left: 5%;
-          height: 5rem;
-          width: 90%;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h2-titulo-producto {
-            font-family: "Mukta", sans-serif;
-            font-weight: 200;
-            position: relative;
-            top: 1rem;
-            top: 0.5rem;
-            font-size: 1.7rem;
-            color: #c0c0c0; }
-        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
-          position: relative;
-          left: 5%;
-          height: 8rem;
-          width: 90%;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
-            color: #5f9ea0;
-            font-family: "Mukta", sans-serif;
-            position: relative;
-            top: 2rem;
-            font-size: 1rem;
-            font-weight: 300; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
-            position: relative;
-            top: 2rem;
-            color: #949494;
-            font-size: 1rem;
-            font-family: "Mukta", sans-serif;
-            background-color: #0a0a0a;
-            font-weight: 200;
-            border: none; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra:hover {
-              text-decoration: underline 1px; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal {
-            position: relative;
-            left: 2rem;
-            height: 9rem; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo {
-              width: 25rem;
-              height: 2rem;
-              font-size: 1.2rem;
-              border-radius: 0.4rem;
-              font-weight: 300;
-              font-family: "Mukta", sans-serif;
-              text-align: start;
-              opacity: 0.5; }
-        .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
-          position: relative;
-          left: 5%;
-          width: 90%;
-          height: 11rem;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
-            position: relative;
-            font-family: "Mukta", sans-serif;
-            font-weight: 200;
-            top: 1.8rem;
-            font-size: 2rem;
-            color: #c0c0c0; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
-            position: relative;
-            top: 2.5rem;
-            font-family: "Mukta", sans-serif;
-            color: #c0c0c0;
-            font-size: 1.1rem;
-            font-weight: 200; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
-              color: #F27649;
+              font-weight: 200;
               font-size: 1rem;
-              font-size: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
-            position: relative;
-            top: 3rem;
-            color: #c0c0c0;
-            font-size: 1rem;
-            font-family: "Mukta", sans-serif;
-            background-color: #0a0a0a;
-            font-weight: 200;
-            border: none; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra:hover {
-              text-decoration: underline 1px; }
-          .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra {
-            display: flex;
-            position: relative;
-            top: 5.7rem;
-            flex-direction: column; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
-              width: 70%;
-              position: relative;
-              left: 15%;
-              height: 2.5rem;
-              border-radius: 0.5rem;
-              border: none;
-              transition: 1s;
-              background-color: #5f9ea0; }
-              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
-                background-color: #0a0a0a;
-                color: #ffffff;
-                border: 1px solid #5f9ea0; }
-            .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
-              width: 70%;
-              position: relative;
-              left: 15%;
-              border: none;
-              margin-top: 1rem;
-              height: 2.5rem;
-              border-radius: 0.5rem;
-              background-color: #F27649;
-              transition: 1s; }
-              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito:hover {
-                background-color: #0a0a0a;
-                color: #ffffff;
-                border: 1px solid #F27649; }
-      .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
-        grid-area: grid-pagos-productos;
-        width: 100%;
-        height: 100%;
-        border-left: 1px solid #444444; }
-        .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
+              color: #a1a1a1; }
+      .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
+        position: relative;
+        width: 90%;
+        height: 20%;
+        left: 5%;
+        border-top: 1px solid #444444;
+        border-bottom: 1px solid #444444; }
+        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion .h3-titulo-descripcion {
+          font-family: "Mukta", sans-serif;
           position: relative;
-          left: 5%;
-          width: 90%;
-          height: 100%;
-          border-top: 1px solid #444444;
-          border-bottom: 1px solid #444444; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h3-medios-pagos {
-            font-family: "Mukta", sans-serif;
-            position: relative;
-            top: 1rem;
-            font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
-            font-family: "Mukta", sans-serif;
-            font-size: 1.2rem;
-            color: #949494;
-            font-weight: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
-            position: relative;
-            top: 1.5rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-debito {
-            position: relative;
-            top: 3.5rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-efectivo {
-            position: relative;
-            top: 4.5rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-credito {
-            position: relative;
-            top: 2rem;
-            width: 18rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-debito {
-            position: relative;
-            top: 3.5rem;
-            width: 18rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .img-medios-pagos-efectivo {
-            position: relative;
-            top: 5rem;
-            width: 12rem; }
-          .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
-            position: relative;
-            top: 5.5rem;
-            left: 1.5rem;
-            color: #c0c0c0;
-            font-size: 1rem;
-            font-family: "Mukta", sans-serif;
-            background-color: #0a0a0a;
-            font-weight: 200;
-            border: none; }
-            .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
-              text-decoration: underline 1px; }
-      .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
-        grid-area: grid-garantia-productos;
-        border-left: 1px solid #444444;
-        width: 100%;
-        height: 100%; }
-        .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia {
-          position: relative;
-          left: 5%;
-          top: 1rem;
-          width: 90%;
-          height: 100%; }
-          .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .h3-garantia {
-            font-family: "Mukta", sans-serif;
-            font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
-          .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
-            display: flex;
-            position: relative;
-            width: 95%;
-            top: 1rem; }
-            .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .icon-compra-protegida {
-              width: 2.4rem;
-              height: 2.4rem; }
-            .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .p-compra-protegida {
-              position: relative;
-              left: 1rem;
-              color: #949494;
-              font-family: "Mukta", sans-serif;
-              font-weight: 200; }
-      .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
-        grid-area: grid-descripcion-productos;
-        width: 100%;
-        height: 100%; }
-        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
-          border-top: 1px solid #444444;
-          border-bottom: 1px solid #444444;
-          left: 5%;
-          height: 20%;
-          position: relative;
-          width: 90%; }
-          .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion .h3-titulo-descripcion {
-            font-family: "Mukta", sans-serif;
-            position: relative;
-            text-align: center;
-            top: 2.5rem;
-            font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
-        .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
-          position: relative;
-          left: 5%;
-          width: 90%; }
-          .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion .p-descripcion {
-            font-family: "Mukta", sans-serif;
-            font-weight: 200;
-            font-size: 1.1rem;
-            position: relative;
-            color: #949494;
-            top: 3rem; } }
+          top: 1.7rem;
+          font-weight: 200;
+          font-size: 1.5rem;
+          color: #c7c7c7;
+          text-align: center; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   .section-nosotros {
@@ -1874,14 +1805,14 @@ body {
         text-align: center;
         text-decoration: underline 1px;
         font-weight: 300;
-        color: #c0c0c0; }
+        color: #c7c7c7; }
       .section-nosotros .div-contenedor-nosotros div .p-texto-nosotros {
         position: relative;
         left: 5%;
         width: 90%;
         font-weight: 200;
         font-size: 1.1rem;
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif; }
       .section-nosotros .div-contenedor-nosotros div .img-nosotros {
         border-radius: 0.5rem;
@@ -1896,7 +1827,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 8rem;
       text-align: center;
@@ -1906,7 +1837,7 @@ body {
       text-align: center;
       text-decoration: none;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 10rem;
       text-align: center;
@@ -1952,7 +1883,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 75%;
           position: relative;
           left: 10%; }
@@ -1966,7 +1897,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 80%;
           position: relative;
           left: 10%; }
@@ -1978,7 +1909,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 80%;
           position: relative;
           left: 10%; }
@@ -1990,7 +1921,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -2015,7 +1946,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas1 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
@@ -2047,7 +1978,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas2 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
@@ -2079,7 +2010,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas3 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
@@ -2100,7 +2031,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 5rem;
       text-align: center;
@@ -2150,91 +2081,7 @@ body {
       text-align: center;
       background-color: #0a0a0a;
       color: #ffffff;
-      text-decoration: none; } }
-
-@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
-  .section-registro {
-    margin-top: 6rem;
-    position: relative; }
-    .section-registro .div-registro {
-      height: 60rem; }
-      .section-registro .div-registro .titulo-crear-cuenta {
-        font-family: "Mukta", sans-serif;
-        text-align: center;
-        text-decoration: underline 1px;
-        font-weight: 300;
-        color: #c0c0c0;
-        position: relative;
-        top: 3rem;
-        text-align: center;
-        font-size: 1.6rem; }
-      .section-registro .div-registro .div-grid-registro {
-        width: 30rem;
-        height: 50rem;
-        top: 3rem;
-        position: relative;
-        display: grid;
-        justify-items: center;
-        align-items: center;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
-        grid-template-areas: "input-registro-1 input-registro-2" "input-registro-3 input-registro-4" "input-registro-5 input-registro-6" "input-registro-7 input-registro-8"  "input-registro-9 input-registro-10"  "input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta"; }
-        .section-registro .div-registro .div-grid-registro .input-registro-1 {
-          grid-area: input-registro-1; }
-        .section-registro .div-registro .div-grid-registro .input-registro-2 {
-          grid-area: input-registro-2; }
-        .section-registro .div-registro .div-grid-registro .input-registro-3 {
-          grid-area: input-registro-3; }
-        .section-registro .div-registro .div-grid-registro .input-registro-4 {
-          grid-area: input-registro-4; }
-        .section-registro .div-registro .div-grid-registro .input-registro-5 {
-          grid-area: input-registro-5; }
-        .section-registro .div-registro .div-grid-registro .input-registro-6 {
-          grid-area: input-registro-6; }
-        .section-registro .div-registro .div-grid-registro .input-registro-7 {
-          grid-area: input-registro-7; }
-        .section-registro .div-registro .div-grid-registro .input-registro-8 {
-          grid-area: input-registro-8; }
-        .section-registro .div-registro .div-grid-registro .input-registro-9 {
-          grid-area: input-registro-9; }
-        .section-registro .div-registro .div-grid-registro .input-registro-10 {
-          grid-area: input-registro-10; }
-        .section-registro .div-registro .div-grid-registro .input-registro-11 {
-          grid-area: input-registro-11; }
-        .section-registro .div-registro .div-grid-registro .input-registro-12 {
-          grid-area: input-registro-12; }
-        .section-registro .div-registro .div-grid-registro .div-boton-crear-cuenta {
-          grid-area: div-boton-crear-cuenta; }
-          .section-registro .div-registro .div-grid-registro .div-boton-crear-cuenta .boton-crear-cuenta {
-            position: relative;
-            width: 10rem;
-            line-height: 1.9rem;
-            top: 0;
-            left: 0;
-            font-size: 1.1rem;
-            font-weight: 200;
-            border-radius: 0.6rem;
-            font-family: "Mukta", sans-serif;
-            text-align: center;
-            background-color: #0a0a0a;
-            color: #ffffff;
-            border: 1px solid #F27649; }
-        .section-registro .div-registro .div-grid-registro .input-registro {
-          position: relative;
-          width: 13rem;
-          height: 2.1rem;
-          margin-top: 1.5rem;
-          font-size: 0.95rem;
-          border-radius: 0.4rem;
-          font-weight: 500;
-          font-family: "Mukta", sans-serif;
-          text-align: center;
-          opacity: 0.5; }
-          .section-registro .div-registro .div-grid-registro .input-registro:focus {
-            opacity: 2;
-            transition: 1s; } }
-
-@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 768px) and (max-width: 991px) {
+      text-decoration: none; }
   .section-registro {
     margin-top: 7rem;
     position: relative; }
@@ -2245,7 +2092,7 @@ body {
         text-align: center;
         text-decoration: underline 1px;
         font-weight: 300;
-        color: #c0c0c0;
+        color: #c7c7c7;
         position: relative;
         top: 3rem;
         text-align: center;
@@ -2315,6 +2162,48 @@ body {
           .section-registro .div-registro .div-grid-registro .input-registro:focus {
             opacity: 2;
             transition: 1s; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
+  .section-registro {
+    margin-top: 6rem;
+    position: relative; }
+    .section-registro .div-registro {
+      height: 45rem; }
+      .section-registro .div-registro .div-grid-registro {
+        width: 30rem;
+        height: 35rem;
+        top: 3rem;
+        position: relative;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+        grid-template-areas: "input-registro-1 input-registro-2" "input-registro-3 input-registro-4" "input-registro-5 input-registro-6" "input-registro-7 input-registro-8"  "input-registro-9 input-registro-10"  "input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta"; }
+        .section-registro .div-registro .div-grid-registro .div-boton-crear-cuenta .boton-crear-cuenta {
+          position: relative;
+          width: 10rem;
+          line-height: 1.9rem;
+          top: 0;
+          left: 0;
+          font-size: 1.1rem;
+          font-weight: 200;
+          border-radius: 0.6rem;
+          font-family: "Mukta", sans-serif;
+          text-align: center;
+          background-color: #0a0a0a;
+          color: #ffffff; }
+        .section-registro .div-registro .div-grid-registro .input-registro {
+          position: relative;
+          width: 13rem;
+          height: 2.1rem;
+          margin-top: 1.5rem;
+          font-size: 0.95rem;
+          border-radius: 0.4rem;
+          font-weight: 500;
+          font-family: "Mukta", sans-serif;
+          text-align: center;
+          opacity: 0.5; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   .footer__contenedor-padre {
@@ -2388,18 +2277,23 @@ body {
       grid-area: footer__div-correo;
       justify-self: end; }
       .footer__contenedor-padre .footer__correo .footer__correo--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
+        text-align: center;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 1rem;
         top: 0.8rem;
         right: 1rem; }
     .footer__contenedor-padre .footer__telefono {
       grid-area: footer__div-telefono; }
       .footer__contenedor-padre .footer__telefono .footer__telefono--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
         text-align: center;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 1rem;
         top: 0.8rem; }
     .footer__contenedor-padre .telefono-bordes {
       text-align: center;
@@ -2433,9 +2327,12 @@ body {
     .footer__contenedor-padre .footer__copyright {
       grid-area: footer__div-copyright; }
       .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
+        text-align: start;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 1rem;
         top: 0.8rem;
         margin-left: 1rem; }
     .footer__contenedor-padre .footer__div-footer2 {
@@ -2468,6 +2365,7 @@ body {
       left: 89%;
       opacity: 1; }
     .desktop .div-header div .icon-carrito-desktop {
+      position: relative;
       position: fixed;
       z-index: 1;
       width: 1.9rem;
@@ -2628,88 +2526,12 @@ body {
           .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
             position: relative;
             font-weight: 300;
-            color: #c0c0c0;
+            color: #c7c7c7;
             top: 1rem;
             font-family: "Mukta", sans-serif;
             font-size: 1.2rem; }
             .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad:hover {
-              text-decoration: underline 1px; } }
-
-@media only screen and (min-width: 992px) and (min-width: 992px) and (max-width: 1399px) {
-  .section-productos {
-    position: relative;
-    left: 0;
-    margin-top: 11rem;
-    margin-bottom: 4rem; }
-    .section-productos .titulo-productos {
-      position: relative;
-      width: 90%;
-      height: 3.5rem;
-      left: 10%;
-      font-weight: 300;
-      font-size: 2.1rem;
-      text-align: start;
-      font-family: "Mukta", sans-serif;
-      color: #c0c0c0;
-      text-decoration: underline 1.5px; }
-    .section-productos div .div-row-productos {
-      position: relative;
-      left: 5%;
-      height: 120rem;
-      width: 95%; }
-      .section-productos div .div-row-productos .card-contenedor {
-        display: grid;
-        width: 16rem;
-        text-decoration: none;
-        border-radius: 0.4rem;
-        height: 23rem;
-        background-color: #0a0a0a;
-        border: 1px solid #F27649;
-        transition: 1s;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 70% 15% 15%;
-        grid-template-areas: "img-card img-card" "precio-card envio-card" "texto-card texto-card"; }
-        .section-productos div .div-row-productos .card-contenedor:hover {
-          box-shadow: 2px 2px 20px #3a3a3a; }
-        .section-productos div .div-row-productos .card-contenedor .img-card {
-          grid-area: img-card;
-          width: 100%;
-          border-top-left-radius: 0.4rem;
-          border-top-right-radius: 0.4rem; }
-        .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c0c0c0;
-          font-family: "Mukta", sans-serif;
-          font-weight: 300;
-          font-size: 1.3rem;
-          grid-area: precio-card;
-          align-self: center;
-          margin-top: 0.5rem;
-          margin-left: 1rem;
-          margin-right: 0; }
-        .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c0c0c0;
-          font-family: "Mukta", sans-serif;
-          font-weight: 300;
-          font-size: 0.8rem;
-          grid-area: envio-card;
-          align-self: center;
-          margin-top: 0.5rem;
-          margin-left: 0;
-          margin-right: 1rem;
-          color: #5f9ea0;
-          justify-self: end; }
-        .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c0c0c0;
-          font-family: "Mukta", sans-serif;
-          font-weight: 200;
-          font-size: 1.1rem;
-          grid-area: texto-card;
-          align-self: center;
-          margin-top: 0;
-          margin-left: 1rem;
-          margin-right: 0; } }
-
-@media only screen and (min-width: 992px) and (min-width: 1400px) {
+              text-decoration: underline 1px; }
   .section-productos {
     position: relative;
     left: 3.5%;
@@ -2724,10 +2546,10 @@ body {
       font-size: 2.2rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c0c0c0;
-      border-bottom: 1px solid #c0c0c0; }
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
     .section-productos div .div-row-productos {
-      height: 90rem; }
+      height: 84rem; }
       .section-productos div .div-row-productos .card-contenedor {
         display: grid;
         width: 16rem;
@@ -2748,7 +2570,7 @@ body {
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.3rem;
@@ -2758,7 +2580,7 @@ body {
           margin-left: 1rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -2770,7 +2592,7 @@ body {
           justify-self: end;
           color: #5f9ea0; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c0c0c0;
+          color: #c7c7c7;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1.1rem;
@@ -2780,18 +2602,66 @@ body {
           margin-left: 1rem;
           margin-right: 0; } }
 
+@media only screen and (min-width: 992px) and (min-width: 1200px) and (max-width: 1399px) {
+  .section-productos {
+    position: relative;
+    left: 0;
+    margin-top: 11rem;
+    margin-bottom: 4rem; }
+    .section-productos .titulo-productos {
+      position: relative;
+      width: 86%;
+      height: 3.5rem;
+      left: 8.8%;
+      font-weight: 300;
+      font-size: 2.1rem;
+      text-align: center;
+      font-family: "Mukta", sans-serif;
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
+    .section-productos div .div-row-productos {
+      position: relative;
+      left: 5%;
+      height: 120rem;
+      width: 95%; } }
+
+@media only screen and (min-width: 992px) and (min-width: 992px) and (max-width: 1199px) {
+  .section-productos {
+    position: relative;
+    left: 0;
+    margin-top: 11rem;
+    margin-bottom: 4rem; }
+    .section-productos .titulo-productos {
+      position: relative;
+      width: 90%;
+      height: 3.5rem;
+      left: 9%;
+      font-weight: 300;
+      font-size: 2.1rem;
+      text-align: center;
+      font-family: "Mukta", sans-serif;
+      color: #c7c7c7;
+      border-bottom: 1px solid #c7c7c7; }
+    .section-productos div .div-row-productos {
+      position: relative;
+      left: 5%;
+      height: 120rem;
+      width: 95%; } }
+
 @media only screen and (min-width: 992px) {
   .section-paginas-productos {
+    width: 100%;
     position: relative;
-    left: 2%;
     height: 75rem;
-    margin-top: 11rem; }
+    margin-top: 11rem;
+    left: 2%; }
     .section-paginas-productos .grid-padre-productos {
       display: grid;
-      position: relative;
-      left: 5.5%;
       width: 90%;
+      position: relative;
       height: 70rem;
+      margin-top: 0;
+      left: 5%;
       grid-template-columns: 50% 50%;
       grid-template-rows: 50% 37% 13%;
       grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
@@ -2808,35 +2678,36 @@ body {
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
           position: relative;
-          left: 10%;
+          width: 75%;
           height: 5rem;
-          width: 70%;
+          left: 10%;
+          border-top: none #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo .h2-titulo-producto {
             font-family: "Mukta", sans-serif;
-            font-weight: 200;
             position: relative;
-            top: 1rem;
             top: 0.5rem;
+            font-weight: 200;
             font-size: 1.7rem;
-            color: #c0c0c0; }
+            color: #c7c7c7; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
           position: relative;
-          left: 10%;
+          width: 75%;
           height: 8rem;
-          width: 70%;
+          left: 10%;
+          border-top: none #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .envio-compra {
-            color: #5f9ea0;
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 2rem;
+            font-weight: 300;
             font-size: 1rem;
-            font-weight: 300; }
+            color: #5f9ea0; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
             position: relative;
             top: 2rem;
-            color: #949494;
+            color: #a1a1a1;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -2856,35 +2727,42 @@ body {
               font-weight: 300;
               font-family: "Mukta", sans-serif;
               text-align: start;
-              opacity: 0.5; }
+              opacity: 0.5;
+              transition: 1s; }
+              .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra div div .modal-codigo-postal .input-codigo:focus {
+                opacity: 1; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra {
           position: relative;
-          left: 10%;
-          width: 70%;
+          width: 75%;
           height: 11rem;
+          left: 10%;
+          border-top: none #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .precio-compra {
-            position: relative;
             font-family: "Mukta", sans-serif;
-            font-weight: 200;
+            position: relative;
             top: 1.8rem;
+            font-weight: 200;
             font-size: 2rem;
-            color: #c0c0c0; }
+            color: #c7c7c7; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
+            font-family: "Mukta", sans-serif;
             position: relative;
             top: 2.5rem;
-            font-family: "Mukta", sans-serif;
-            color: #c0c0c0;
+            font-weight: 200;
             font-size: 1.1rem;
-            font-weight: 200; }
+            color: #a1a1a1; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
-              color: #F27649;
-              font-size: 1rem;
-              font-weight: 300; }
+              font-family: "Mukta", sans-serif;
+              position: relative;
+              top: 0;
+              font-weight: 300;
+              font-size: 1.1rem;
+              color: #F27649; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
             position: relative;
             top: 3rem;
-            color: #c0c0c0;
+            color: #a1a1a1;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -2899,24 +2777,25 @@ body {
             flex-direction: column; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora {
               width: 70%;
-              position: relative;
-              left: 15%;
               height: 2.5rem;
-              border-radius: 0.5rem;
+              top: 0;
+              left: 15%;
               border: none;
-              transition: 1s;
-              background-color: #5f9ea0; }
+              position: relative;
+              border-radius: 0.5rem;
+              background-color: #5f9ea0;
+              transition: 1s; }
               .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-comprar-ahora:hover {
                 background-color: #0a0a0a;
                 color: #ffffff;
                 border: 1px solid #5f9ea0; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .div-botones-compra .boton-agregar-carrito {
               width: 70%;
-              position: relative;
+              height: 2.5rem;
+              top: 1rem;
               left: 15%;
               border: none;
-              margin-top: 1rem;
-              height: 2.5rem;
+              position: relative;
               border-radius: 0.5rem;
               background-color: #F27649;
               transition: 1s; }
@@ -2926,28 +2805,30 @@ body {
                 border: 1px solid #F27649; }
       .section-paginas-productos .grid-padre-productos .grid-pagos-productos {
         grid-area: grid-pagos-productos;
+        border-left: 1px solid #444444;
         width: 100%;
-        height: 100%;
-        border-left: 1px solid #444444; }
+        height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos {
           position: relative;
-          left: 10%;
-          width: 70%;
+          width: 75%;
           height: 100%;
+          left: 10%;
           border-top: 1px solid #444444;
           border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h3-medios-pagos {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 1rem;
+            font-weight: 200;
             font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            color: #c7c7c7; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
             font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 0;
+            font-weight: 200;
             font-size: 1.2rem;
-            color: #949494;
-            font-weight: 200; }
+            color: #a1a1a1; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
             position: relative;
             top: 1.5rem; }
@@ -2972,13 +2853,13 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
             position: relative;
             top: 5.5rem;
-            left: 1.5rem;
-            color: #949494;
+            color: #a1a1a1;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
             font-weight: 200;
-            border: none; }
+            border: none;
+            left: 1.5rem; }
             .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra:hover {
               text-decoration: underline 1px; }
       .section-paginas-productos .grid-padre-productos .grid-garantia-productos {
@@ -2988,15 +2869,19 @@ body {
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia {
           position: relative;
+          width: 75%;
+          height: 100%;
           left: 10%;
-          top: 1rem;
-          width: 70%;
-          height: 100%; }
+          border-top: none #444444;
+          border-bottom: none #444444;
+          top: 1rem; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .h3-garantia {
             font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 0;
+            font-weight: 200;
             font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            color: #a1a1a1; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
             display: flex;
             position: relative;
@@ -3006,42 +2891,47 @@ body {
               width: 2.4rem;
               height: 2.4rem; }
             .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .p-compra-protegida {
-              position: relative;
-              left: 1rem;
-              top: 0.7rem;
-              color: #949494;
               font-family: "Mukta", sans-serif;
-              font-weight: 200; }
+              position: relative;
+              top: 0.7rem;
+              font-weight: 200;
+              font-size: 1rem;
+              color: #a1a1a1;
+              left: 1rem; }
       .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
         grid-area: grid-descripcion-productos;
+        border-left: none #444444;
         width: 100%;
         height: 100%; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
-          border-top: 1px solid #444444;
-          border-bottom: 1px solid #444444;
-          left: 10%;
-          height: 20%;
           position: relative;
-          width: 80%; }
+          width: 80%;
+          height: 20%;
+          left: 10%;
+          border-top: 1px solid #444444;
+          border-bottom: 1px solid #444444; }
           .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion .h3-titulo-descripcion {
             font-family: "Mukta", sans-serif;
             position: relative;
-            text-align: center;
             top: 2.5rem;
+            font-weight: 200;
             font-size: 1.5rem;
-            color: #c0c0c0;
-            font-weight: 200; }
+            color: #c7c7c7;
+            text-align: center; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
           position: relative;
+          width: 80%;
+          height: 80%;
           left: 10%;
-          width: 80%; }
+          border-top: none #444444;
+          border-bottom: none #444444; }
           .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion .p-descripcion {
             font-family: "Mukta", sans-serif;
+            position: relative;
+            top: 3rem;
             font-weight: 200;
             font-size: 1.1rem;
-            position: relative;
-            color: #949494;
-            top: 3rem; }
+            color: #a1a1a1; }
   .section-nosotros {
     position: relative;
     left: 2%;
@@ -3063,14 +2953,14 @@ body {
         text-align: center;
         text-decoration: underline 1px;
         font-weight: 300;
-        color: #c0c0c0; }
+        color: #c7c7c7; }
       .section-nosotros .div-contenedor-nosotros div .p-texto-nosotros {
         position: relative;
         left: 15%;
         width: 70%;
         font-weight: 200;
         font-size: 1.1rem;
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif; }
       .section-nosotros .div-contenedor-nosotros div .img-nosotros {
         border-radius: 0.5rem;
@@ -3087,7 +2977,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 11rem;
       text-align: center;
@@ -3097,7 +2987,7 @@ body {
       text-align: center;
       text-decoration: none;
       font-weight: 200;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 14rem;
       text-align: center;
@@ -3143,7 +3033,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 75%;
           position: relative;
           left: 10%; }
@@ -3157,7 +3047,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 80%;
           position: relative;
           left: 10%; }
@@ -3169,7 +3059,7 @@ body {
           top: 1rem;
           font-weight: 200;
           text-align: center;
-          color: #949494;
+          color: #9b9b9b;
           width: 80%;
           position: relative;
           left: 10%; }
@@ -3182,7 +3072,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 4rem;
       text-align: center;
@@ -3207,7 +3097,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas1 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
@@ -3239,7 +3129,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas2 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
@@ -3271,7 +3161,7 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas3 .p-preguntas {
-        color: #c0c0c0;
+        color: #c7c7c7;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
@@ -3293,7 +3183,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -3343,91 +3233,7 @@ body {
       text-align: center;
       background-color: #0a0a0a;
       color: #ffffff;
-      text-decoration: none; } }
-
-@media only screen and (min-width: 992px) and (min-width: 992px) and (max-width: 1399px) {
-  .section-registro {
-    height: 45rem;
-    margin-top: 8rem;
-    position: relative;
-    left: 2%; }
-    .section-registro .div-registro .titulo-crear-cuenta {
-      font-family: "Mukta", sans-serif;
-      text-align: center;
-      text-decoration: underline 1px;
-      font-weight: 300;
-      color: #c0c0c0;
-      position: relative;
-      top: 3rem;
-      text-align: center;
-      font-size: 1.8rem; }
-    .section-registro .div-registro .div-grid-registro {
-      width: 44rem;
-      height: 30rem;
-      top: 5rem;
-      position: relative;
-      display: grid;
-      justify-items: center;
-      align-items: center;
-      grid-template-columns: 33.34% 33.34% 33.4%;
-      grid-template-rows: 20% 20% 20% 20% 20%;
-      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
-      .section-registro .div-registro .div-grid-registro .input-registro-1 {
-        grid-area: input-registro-1; }
-      .section-registro .div-registro .div-grid-registro .input-registro-2 {
-        grid-area: input-registro-2; }
-      .section-registro .div-registro .div-grid-registro .input-registro-3 {
-        grid-area: input-registro-3; }
-      .section-registro .div-registro .div-grid-registro .input-registro-4 {
-        grid-area: input-registro-4; }
-      .section-registro .div-registro .div-grid-registro .input-registro-5 {
-        grid-area: input-registro-5; }
-      .section-registro .div-registro .div-grid-registro .input-registro-6 {
-        grid-area: input-registro-6; }
-      .section-registro .div-registro .div-grid-registro .input-registro-7 {
-        grid-area: input-registro-7; }
-      .section-registro .div-registro .div-grid-registro .input-registro-8 {
-        grid-area: input-registro-8; }
-      .section-registro .div-registro .div-grid-registro .input-registro-9 {
-        grid-area: input-registro-9; }
-      .section-registro .div-registro .div-grid-registro .input-registro-10 {
-        grid-area: input-registro-10; }
-      .section-registro .div-registro .div-grid-registro .input-registro-11 {
-        grid-area: input-registro-11; }
-      .section-registro .div-registro .div-grid-registro .input-registro-12 {
-        grid-area: input-registro-12; }
-      .section-registro .div-registro .div-grid-registro .div-boton-crear-cuenta {
-        grid-area: div-boton-crear-cuenta; }
-        .section-registro .div-registro .div-grid-registro .div-boton-crear-cuenta .boton-crear-cuenta {
-          position: relative;
-          width: 12rem;
-          line-height: 2.1rem;
-          top: 0;
-          left: 0;
-          font-size: 1.1rem;
-          font-weight: 200;
-          border-radius: 0.6rem;
-          font-family: "Mukta", sans-serif;
-          text-align: center;
-          background-color: #0a0a0a;
-          color: #ffffff;
-          border: 1px solid #F27649; }
-      .section-registro .div-registro .div-grid-registro .input-registro {
-        position: relative;
-        width: 13.5rem;
-        height: 2.3rem;
-        margin-top: 1.5rem;
-        font-size: 1rem;
-        border-radius: 0.4rem;
-        font-weight: 500;
-        font-family: "Mukta", sans-serif;
-        text-align: center;
-        opacity: 0.5; }
-        .section-registro .div-registro .div-grid-registro .input-registro:focus {
-          opacity: 2;
-          transition: 1s; } }
-
-@media only screen and (min-width: 992px) and (min-width: 1400px) {
+      text-decoration: none; }
   .section-registro {
     height: 85vh;
     margin-top: 8rem;
@@ -3438,7 +3244,7 @@ body {
       text-align: center;
       text-decoration: underline 1px;
       font-weight: 300;
-      color: #c0c0c0;
+      color: #c7c7c7;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -3509,12 +3315,44 @@ body {
           opacity: 2;
           transition: 1s; } }
 
+@media only screen and (min-width: 992px) and (min-width: 992px) and (max-width: 1399px) {
+  .section-registro {
+    height: 40rem;
+    margin-top: 8rem;
+    position: relative;
+    left: 2%; }
+    .section-registro .div-registro .div-grid-registro {
+      width: 48rem;
+      height: 30rem;
+      top: 5rem;
+      position: relative;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      grid-template-columns: 33.34% 33.34% 33.4%;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+      .section-registro .div-registro .div-grid-registro .input-registro {
+        position: relative;
+        width: 13.5rem;
+        height: 2.3rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        border-radius: 0.4rem;
+        font-weight: 500;
+        font-family: "Mukta", sans-serif;
+        text-align: center;
+        opacity: 0.5; }
+        .section-registro .div-registro .div-grid-registro .input-registro:focus {
+          opacity: 2;
+          transition: 1s; } }
+
 @media only screen and (min-width: 992px) {
   .footer__contenedor-padre {
     background-color: #000000;
     display: grid;
     grid-template-columns: 29.4% 15% 15% 15% 25.5%;
-    grid-template-rows: 10rem 8rem;
+    grid-template-rows: 10rem 7rem;
     grid-template-areas: "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2" "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright"; }
     .footer__contenedor-padre .footer__div-footer1 {
       grid-area: footer__div-footer1; }
@@ -3587,18 +3425,23 @@ body {
       grid-area: footer__div-correo;
       justify-self: end; }
       .footer__contenedor-padre .footer__correo .footer__correo--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
+        text-align: center;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 1.1rem;
         top: 1rem;
         right: 2rem; }
     .footer__contenedor-padre .footer__telefono {
       grid-area: footer__div-telefono; }
       .footer__contenedor-padre .footer__telefono .footer__telefono--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
         text-align: center;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 1.1rem;
         top: 1rem; }
     .footer__contenedor-padre .telefono-bordes {
       text-align: center;
@@ -3632,9 +3475,12 @@ body {
     .footer__contenedor-padre .footer__copyright {
       grid-area: footer__div-copyright; }
       .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
-        color: #7e7e7e;
+        color: #8b8b8b;
+        text-align: start;
         font-family: "Mukta", sans-serif;
+        font-weight: 300;
         position: relative;
+        font-size: 1.1rem;
         top: 1rem;
         margin-left: 2rem; }
     .footer__contenedor-padre .footer__div-footer2 {

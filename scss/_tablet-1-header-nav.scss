@@ -8,6 +8,11 @@
                         @include logo-header(15rem,1.3rem,1rem);
                     }
                 }
+                .div-carrito-mobile{
+                    .icon-carrito-mobile{
+                        @include icon-carrito(1.9rem,8rem,92%,1);
+                    }
+                }
                 div{
                     ul{
                         li{

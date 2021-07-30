@@ -1,0 +1,79 @@
+@mixin section-paginas-productos($width,$height,$margin-top,$left){
+    width: $width;
+    position: relative;
+    height: $height;
+    margin-top: $margin-top;
+    left: $left;
+}
+@mixin img-productos($width){
+    grid-area: grid-img-productos;
+    width: $width;
+    justify-self: center;
+    align-self: center;
+    border-radius: 0.5rem;
+}
+@mixin grid-productos($grid-area,$border-left){
+    grid-area: $grid-area;
+    border-left: $border-left $borde-compra-productos;
+    width: 100%;
+    height: 100%;
+}
+@mixin div-productos($width,$height,$left,$border-top,$border-bottom){
+    position: relative;
+    width: $width;
+    height: $height;
+    left: $left;
+    border-top: $border-top $borde-compra-productos;
+    border-bottom: $border-bottom $borde-compra-productos;
+}
+@mixin texto-div($top,$font-weight,$font-size,$color){
+    font-family: $font;
+    position: relative;
+    top: $top;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    color: $color;
+}
+@mixin modal-compra($top,$font-size){
+    position: relative;
+    top: $top;
+    color: $color-texto-gris-texto;
+    font-size: $font-size;
+    font-family: $font;
+    background-color: $background-color;
+    font-weight: 200;
+    border: none;
+    &:hover{
+        text-decoration: underline 1px;
+    }
+}
+@mixin input-modal-postal($width,$height,$font-size){
+    width: $width;
+    height: $height;
+    font-size: $font-size;
+    border-radius: 0.4rem;
+    font-weight: 300;
+    font-family: $font;
+    text-align: start;
+    opacity: 0.5;
+    transition: 1s;
+    &:focus{
+        opacity: 1;
+    }
+}
+@mixin boton-compras($width,$height,$top,$left,$bg-boton){
+    width: $width;
+    height: $height;
+    top: $top;
+    left: $left;
+    border: none;
+    position: relative;
+    border-radius: 0.5rem;
+    background-color: $bg-boton;
+    transition: 1s;
+    &:hover{
+        background-color: $background-color;
+        color: $color-texto;
+        border: $bordes $bg-boton;
+    }
+}

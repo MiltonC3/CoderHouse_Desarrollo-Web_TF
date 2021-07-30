@@ -8,6 +8,11 @@
                         @include logo-header(14rem,1.4rem,1rem);
                     }
                 }
+                .div-carrito-mobile{
+                    .icon-carrito-mobile{
+                        @include icon-carrito(1.7rem,1.8rem,77vw,1);
+                    }
+                }
                 .icon-menu-bordes{
                     position: relative;
                     left: 1rem;
@@ -38,6 +43,26 @@
                         .usuario-texto{
                             @include menu-mobile(0.85rem,1.5rem);
                             font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:450px){
+    .mobile{
+        header{
+            .nav{
+                div{
+                    a{
+                        .logo-header-mobile{
+                            @include logo-header(13rem,1.4rem,0.5rem);
+                        }
+                    }
+                    .div-carrito-mobile{
+                        .icon-carrito-mobile{
+                            @include icon-carrito(1.7rem,1.8rem,72vw,1);
                         }
                     }
                 }

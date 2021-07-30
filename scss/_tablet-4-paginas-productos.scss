@@ -1,3 +1,167 @@
+//general//
+.section-paginas-productos{
+    @include section-paginas-productos(100%,72rem,10rem,0);
+    .grid-padre-productos{
+        display: grid;
+        @include section-paginas-productos(100%,70rem,0,0);
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 48% 38% 14%;
+        grid-template-areas: 
+                            "grid-img-productos grid-compra-productos"
+                            "grid-descripcion-productos grid-pagos-productos"
+                            "grid-descripcion-productos grid-garantia-productos";
+        
+        //grid img//
+        .grid-img-productos{
+            @include img-productos(90%);
+        }
+        //grid compra//
+        .grid-compra-productos{
+            @include grid-productos(grid-compra-productos,$bordes);
+            .div-compra-titulo{
+                @include div-productos(90%,5rem,5%,none,$bordes);
+                .h2-titulo-producto{
+                    @include texto-div(0.5rem,200,1.7rem,$color-texto-gris);
+                }
+            }
+            .div-envio-compra{
+                @include div-productos(90%,8rem,5%,none,$bordes);
+                .envio-compra{
+                    @include texto-div(2rem,300,1rem,$color1-bordes);
+                }
+                .modal-envio-compra{
+                    @include modal-compra(2rem,1rem);
+                }
+                div{
+                    div{
+                        .modal-codigo-postal{
+                            position: relative;
+                            left: 2rem;
+                            height: 9rem;
+                            .input-codigo{
+                                @include input-modal-postal(25rem,2rem,1.2rem);
+                            }
+                        }
+                    }
+                }
+            }
+            .div-precio-compra{
+                @include div-productos(90%,11rem,5%,none,$bordes);
+                .precio-compra{
+                    @include texto-div(1.8rem,200,2rem,$color-texto-gris);
+                }
+                .p-cuotas-compra{
+                    @include texto-div(2.5rem,200,1.1rem,$color-texto-gris-texto);
+                    .strong-cuotas{
+                        @include texto-div(0,300,1.1rem,$color2-bordes);
+                    }
+                }
+                .medios-pago-compra{
+                    @include modal-compra(3rem,1rem);
+                }
+                .div-botones-compra{
+                    display: flex;
+                    position: relative;
+                    top: 5.7rem;
+                    flex-direction: column;
+                    .boton-comprar-ahora{
+                        @include boton-compras(70%,2.5rem,0,15%,$color1-bordes);
+                    }
+                    .boton-agregar-carrito{
+                        @include boton-compras(70%,2.5rem,1rem,15%,$color2-bordes);
+                    }
+                }
+            }  
+        }
+        //grid pagos//
+        .grid-pagos-productos{
+            @include grid-productos(grid-pagos-productos,$bordes);
+            .div-medios-pagos{
+                @include div-productos(90%,100%,5%,$bordes,$bordes);
+                .h3-medios-pagos{
+                    @include texto-div(1rem,200,1.5rem,$color-texto-gris);
+                }
+                .h4-pagos{
+                    @include texto-div(0,200,1.2rem,$color-texto-gris-texto);
+                }
+                .medio-credito{
+                    position: relative;
+                    top: 1.5rem;
+                }
+                .medio-debito{
+                    position: relative;
+                    top: 3.5rem;
+                }
+                .medio-efectivo{
+                    position: relative;
+                    top: 4.5rem;
+                }
+                .img-medios-pagos-credito{
+                    position: relative;
+                    top: 2rem;
+                    width: 18rem;
+                }
+                .img-medios-pagos-debito{
+                    position: relative;
+                    top: 3.5rem;
+                    width: 18rem;
+                }
+                .img-medios-pagos-efectivo{
+                    position: relative;
+                    top: 5rem;
+                    width: 12rem;
+                }
+                .medios-pago-compra{
+                    @include modal-compra(5.5rem,1rem);
+                    left: 1.5rem;
+                }
+            }
+        }
+        //grid garantia//
+        .grid-garantia-productos{
+            @include grid-productos(grid-garantia-productos,$bordes);
+            .div-garantia{
+                @include div-productos(90%,100%,5%,none,none);
+                top: 1rem;
+                .h3-garantia{
+                    @include texto-div(0,200,1.5rem,$color-texto-gris);
+                }
+                .div-compra-protegida{
+                    display: flex;
+                    position: relative;
+                    width: 95%;
+                    top: 1rem;
+                    .icon-compra-protegida{
+                        width: 2.4rem;
+                        height: 2.4rem;
+                    }
+                    .p-compra-protegida{
+                        @include texto-div(0,200,1rem,$color-texto-gris-texto);
+                        left: 1rem;
+                    }
+                }
+            }
+        }
+        //grid descripcion//
+        .grid-descripcion-productos{
+            @include grid-productos(grid-descripcion-productos,none);
+            .div-descripcion{
+                @include div-productos(90%,20%,5%,$bordes,$bordes);
+                .h3-titulo-descripcion{
+                    @include texto-div(2.5rem,200,1.5rem,$color-texto-gris);
+                    text-align: center
+                }
+            }
+            .div-p-descripcion{
+                @include div-productos(90%,80%,5%,none,none);
+                .p-descripcion{
+                    @include texto-div(3rem,200,1.1rem,$color-texto-gris-texto);
+                } 
+            }
+        }
+    }
+}
+
 @media only screen and (min-width:576px) and (max-width:767px){
     .section-paginas-productos{
         position: relative;
@@ -17,614 +181,59 @@
                                 "grid-garantia-productos"
                                 "grid-descripcion-productos";
             .grid-img-productos{
-                grid-area: grid-img-productos;
-                width: 75%;
-                justify-self: center;
-                align-self: center;
-                border-radius: 0.5rem;
+                @include img-productos(75%);
             }
             .grid-compra-productos{
-                grid-area: grid-compra-productos;
-                width: 100%;
-                height: 100%;
+                @include grid-productos(grid-compra-productos,none);
                 .div-compra-titulo{
-                    position: relative;
                     top: 1rem;
-                    left: 5%;
-                    height: 5rem;
-                    width: 90%;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .h2-titulo-producto{
-                        font-family: $font;
-                        font-weight: 200;
-                        position: relative;
-                        top: 1rem;
-                        top: 0.5rem;
-                        font-size: 1.7rem;
-                        color: $color-texto-gris;
-                    }
-                }
-                .div-envio-compra{
-                    position: relative;
-                    left: 5%;
-                    height: 8rem;
-                    width: 90%;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .envio-compra{
-                        color: $color1-bordes;
-                        font-family: $font;
-                        position: relative;
-                        top: 2rem;
-                        font-size: 1rem;
-                        font-weight: 300;
-                    }
-                    .modal-envio-compra{
-                        position: relative;
-                        top: 2rem;
-                        color: $color-texto-gris-ayuda;
-                        font-size: 1rem;
-                        font-family: $font;
-                        background-color: $background-color;
-                        font-weight: 200;
-                        border: none;
-                        &:hover{
-                            text-decoration: underline 1px;
-                        }
-                    }
-                    div{
-                        div{
-                            .modal-codigo-postal{
-                                position: relative;
-                                left: 2rem;
-                                height: 9rem;
-                                .input-codigo{
-                                    width: 25rem;
-                                    height: 2rem;
-                                    font-size: 1.2rem;
-                                    border-radius: 0.4rem;
-                                    font-weight: 300;
-                                    font-family: $font;
-                                    text-align: start;
-                                    opacity: 0.5;
-                                }
-                            }
-                        }
-                    }
                 }
                 .div-precio-compra{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    height: 11rem;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .precio-compra{
-                        position: relative;
-                        font-family: $font;
-                        font-weight: 200;
-                        top: 1.8rem;
-                        font-size: 2rem;
-                        color: $color-texto-gris;
-                    }
-                    .p-cuotas-compra{
-                        position: relative;
-                        top: 2.5rem;
-                        font-family: $font;
-                        color: $color-texto-gris;
-                        font-size: 1.1rem;
-                        font-weight: 200;
-                        .strong-cuotas{
-                            color: $color2-bordes;
-                            font-size: 1rem;
-                            font-size: 200;
-                        }
-                    }
-                    .medios-pago-compra{
-                        position: relative;
-                        top: 3rem;
-                        color: $color-texto-gris;
-                        font-size: 1rem;
-                        font-family: $font;
-                        background-color: $background-color;
-                        font-weight: 200;
-                        border: none;
-                        &:hover{
-                            text-decoration: underline 1px;
-                        }
-                    }
                     .div-botones-compra{
                         display: flex;
                         position: relative;
                         top: 6.5rem;
                         flex-direction: column;
-                        .boton-comprar-ahora{
-                            width: 70%;
-                            position: relative;
-                            left: 15%;
-                            height: 2.5rem;
-                            border-radius: 0.5rem;
-                            border: none;
-                            transition: 1s;
-                            background-color: $color1-bordes;
-                            &:hover{
-                                background-color: $background-color;
-                                color: $color-texto;
-                                border: $bordes $color1-bordes;
-                            }
-                        }
                         .boton-agregar-carrito{
-                            width: 70%;
-                            position: relative;
-                            left: 15%;
-                            border: none;
-                            margin-top: 2rem;
-                            height: 2.5rem;
-                            border-radius: 0.5rem;
-                            background-color: $color2-bordes;
-                            transition: 1s;
-                            &:hover{
-                                background-color: $background-color;
-                                color: $color-texto;
-                                border: $bordes $color2-bordes;
-                            }
+                            @include boton-compras(70%,2.5rem,2rem,15%,$color2-bordes);
                         }
                     }
                 }  
             }
             .grid-pagos-productos{
-                grid-area: grid-pagos-productos;
-                width: 100%;
-                height: 100%;
+                @include grid-productos(grid-pagos-productos,none);
                 .div-medios-pagos{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    height: 100%;
-                    border-top: $bordes $borde-compra-productos;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .h3-medios-pagos{
-                        font-family: $font;
-                        position: relative;
-                        top: 1rem;
-                        font-size: 1.5rem;
-                        color: $color-texto-gris;
-                        font-weight: 200;
-                    }
-                    .h4-pagos{
-                        font-family: $font;
-                        font-size: 1.2rem;
-                        color: $color-texto-gris-ayuda;
-                        font-weight: 200;
-                    }
-                    .medio-credito{
-                        position: relative;
-                        top: 1.5rem;
-                    }
-                    .medio-debito{
-                        position: relative;
-                        top: 3.5rem;
-                    }
-                    .medio-efectivo{
-                        position: relative;
-                        top: 4.5rem;
-                    }
-                    .img-medios-pagos-credito{
-                        position: relative;
-                        top: 2rem;
-                        width: 20rem;
-                    }
                     .img-medios-pagos-debito{
-                        position: relative;
                         top: 3.5rem;
                         width: 20rem;
-                    }
-                    .img-medios-pagos-efectivo{
-                        position: relative;
-                        top: 5rem;
-                        width: 12rem;
-                    }
-                    .medios-pago-compra{
-                        position: relative;
-                        top: 5.5rem;
-                        left: 1.5rem;
-                        color: $color-texto-gris;
-                        font-size: 1rem;
-                        font-family: $font;
-                        background-color: $background-color;
-                        font-weight: 200;
-                        border: none;
-                        &:hover{
-                            text-decoration: underline 1px;
-                        }
                     }
                 }
             }
             .grid-garantia-productos{
-                grid-area: grid-garantia-productos;
-                width: 100%;
-                height: 100%;
+                @include grid-productos(grid-garantia-productos,none);
                 .div-garantia{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    height: 100%;
-                    border-bottom: $bordes $borde-compra-productos;
+                    @include div-productos(90%,100%,5%,none,none);
                     .h3-garantia{
-                        font-family: $font;
-                        font-size: 1.5rem;
-                        position: relative;
-                        top: 1rem;
-                        color: $color-texto-gris;
-                        font-weight: 200;
+                        @include texto-div(1rem,200,1.5rem,$color-texto-gris);
                     }
                     .div-compra-protegida{
-                        display: flex;
-                        position: relative;
-                        width: 95%;
                         top: 2.5rem;
-                        .icon-compra-protegida{
-                            width: 2.4rem;
-                            height: 2.4rem;
-                        }
                         .p-compra-protegida{
-                            position: relative;
-                            left: 1rem;
-                            top: 0.7rem;
-                            color: $color-texto-gris-ayuda;
-                            font-family: $font;
-                            font-weight: 200;
+                            @include texto-div(0.7rem,200,1rem,$color-texto-gris-texto);
                         }
                     }
                 }
             }
+            //grid descripcion//
             .grid-descripcion-productos{
-                grid-area: grid-descripcion-productos;
-                width: 100%;
-                height: 100%;
                 .div-descripcion{
-                    border-top: $bordes $borde-compra-productos;
-                    border-bottom: $bordes $borde-compra-productos;
-                    left: 5%;
-                    height: 20%;
-                    position: relative;
-                    width: 90%;
+                    @include div-productos(90%,20%,5%,$bordes,$bordes);
                     .h3-titulo-descripcion{
-                        font-family: $font;
-                        position: relative;
-                        text-align: center;
-                        top: 2.5rem;
-                        font-size: 1.5rem;
-                        color: $color-texto-gris;
-                        font-weight: 200;
+                        @include texto-div(1.7rem,200,1.5rem,$color-texto-gris);
+                        text-align: center
                     }
-                }
-                .div-p-descripcion{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    .p-descripcion{
-                        font-family: $font;
-                        font-weight: 200;
-                        font-size: 1.1rem;
-                        position: relative;
-                        color: $color-texto-gris-ayuda;
-                        top: 3rem;
-                    } 
                 }
             }
         }
     }    
-}
-@media only screen and (min-width:768px) and (max-width:991px){
-    .section-paginas-productos{
-        position: relative;
-        height: 72rem;
-        margin-top: 10rem;
-        .grid-padre-productos{
-            display: grid;
-            position: relative;
-            width: 100%;
-            height: 70rem;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 48% 38% 14%;
-            grid-template-areas: 
-                                "grid-img-productos grid-compra-productos"
-                                "grid-descripcion-productos grid-pagos-productos"
-                                "grid-descripcion-productos grid-garantia-productos";
-            
-            .grid-img-productos{
-                grid-area: grid-img-productos;
-                width: 90%;
-                justify-self: center;
-                align-self: center;
-                border-radius: 0.5rem;
-            }
-            .grid-compra-productos{
-                grid-area: grid-compra-productos;
-                border-left: $bordes $borde-compra-productos;
-                width: 100%;
-                height: 100%;
-                .div-compra-titulo{
-                    position: relative;
-                    left: 5%;
-                    height: 5rem;
-                    width: 90%;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .h2-titulo-producto{
-                        font-family: $font;
-                        font-weight: 200;
-                        position: relative;
-                        top: 1rem;
-                        top: 0.5rem;
-                        font-size: 1.7rem;
-                        color: $color-texto-gris;
-                    }
-                }
-                .div-envio-compra{
-                    position: relative;
-                    left: 5%;
-                    height: 8rem;
-                    width: 90%;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .envio-compra{
-                        color: $color1-bordes;
-                        font-family: $font;
-                        position: relative;
-                        top: 2rem;
-                        font-size: 1rem;
-                        font-weight: 300;
-                    }
-                    .modal-envio-compra{
-                        position: relative;
-                        top: 2rem;
-                        color: $color-texto-gris-ayuda;
-                        font-size: 1rem;
-                        font-family: $font;
-                        background-color: $background-color;
-                        font-weight: 200;
-                        border: none;
-                        &:hover{
-                            text-decoration: underline 1px;
-                        }
-                    }
-                    div{
-                        div{
-                            .modal-codigo-postal{
-                                position: relative;
-                                left: 2rem;
-                                height: 9rem;
-                                .input-codigo{
-                                    width: 25rem;
-                                    height: 2rem;
-                                    font-size: 1.2rem;
-                                    border-radius: 0.4rem;
-                                    font-weight: 300;
-                                    font-family: $font;
-                                    text-align: start;
-                                    opacity: 0.5;
-                                }
-                            }
-                        }
-                    }
-                }
-                .div-precio-compra{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    height: 11rem;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .precio-compra{
-                        position: relative;
-                        font-family: $font;
-                        font-weight: 200;
-                        top: 1.8rem;
-                        font-size: 2rem;
-                        color: $color-texto-gris;
-                    }
-                    .p-cuotas-compra{
-                        position: relative;
-                        top: 2.5rem;
-                        font-family: $font;
-                        color: $color-texto-gris;
-                        font-size: 1.1rem;
-                        font-weight: 200;
-                        .strong-cuotas{
-                            color: $color2-bordes;
-                            font-size: 1rem;
-                            font-size: 200;
-                        }
-                    }
-                    .medios-pago-compra{
-                        position: relative;
-                        top: 3rem;
-                        color: $color-texto-gris;
-                        font-size: 1rem;
-                        font-family: $font;
-                        background-color: $background-color;
-                        font-weight: 200;
-                        border: none;
-                        &:hover{
-                            text-decoration: underline 1px;
-                        }
-                    }
-                    .div-botones-compra{
-                        display: flex;
-                        position: relative;
-                        top: 5.7rem;
-                        flex-direction: column;
-                        .boton-comprar-ahora{
-                            width: 70%;
-                            position: relative;
-                            left: 15%;
-                            height: 2.5rem;
-                            border-radius: 0.5rem;
-                            border: none;
-                            transition: 1s;
-                            background-color: $color1-bordes;
-                            &:hover{
-                                background-color: $background-color;
-                                color: $color-texto;
-                                border: $bordes $color1-bordes;
-                            }
-                        }
-                        .boton-agregar-carrito{
-                            width: 70%;
-                            position: relative;
-                            left: 15%;
-                            border: none;
-                            margin-top: 1rem;
-                            height: 2.5rem;
-                            border-radius: 0.5rem;
-                            background-color: $color2-bordes;
-                            transition: 1s;
-                            &:hover{
-                                background-color: $background-color;
-                                color: $color-texto;
-                                border: $bordes $color2-bordes;
-                            }
-                        }
-                    }
-                }  
-            }
-            .grid-pagos-productos{
-                grid-area: grid-pagos-productos;
-                width: 100%;
-                height: 100%;
-                border-left: $bordes $borde-compra-productos;
-                .div-medios-pagos{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    height: 100%;
-                    border-top: $bordes $borde-compra-productos;
-                    border-bottom: $bordes $borde-compra-productos;
-                    .h3-medios-pagos{
-                        font-family: $font;
-                        position: relative;
-                        top: 1rem;
-                        font-size: 1.5rem;
-                        color: $color-texto-gris;
-                        font-weight: 200;
-                    }
-                    .h4-pagos{
-                        font-family: $font;
-                        font-size: 1.2rem;
-                        color: $color-texto-gris-ayuda;
-                        font-weight: 200;
-                    }
-                    .medio-credito{
-                        position: relative;
-                        top: 1.5rem;
-                    }
-                    .medio-debito{
-                        position: relative;
-                        top: 3.5rem;
-                    }
-                    .medio-efectivo{
-                        position: relative;
-                        top: 4.5rem;
-                    }
-                    .img-medios-pagos-credito{
-                        position: relative;
-                        top: 2rem;
-                        width: 18rem;
-                    }
-                    .img-medios-pagos-debito{
-                        position: relative;
-                        top: 3.5rem;
-                        width: 18rem;
-                    }
-                    .img-medios-pagos-efectivo{
-                        position: relative;
-                        top: 5rem;
-                        width: 12rem;
-                    }
-                    .medios-pago-compra{
-                        position: relative;
-                        top: 5.5rem;
-                        left: 1.5rem;
-                        color: $color-texto-gris;
-                        font-size: 1rem;
-                        font-family: $font;
-                        background-color: $background-color;
-                        font-weight: 200;
-                        border: none;
-                        &:hover{
-                            text-decoration: underline 1px;
-                        }
-                    }
-                }
-            }
-            .grid-garantia-productos{
-                grid-area: grid-garantia-productos;
-                border-left: $bordes $borde-compra-productos;
-                width: 100%;
-                height: 100%;
-                .div-garantia{
-                    position: relative;
-                    left: 5%;
-                    top: 1rem;
-                    width: 90%;
-                    height: 100%;
-                    .h3-garantia{
-                        font-family: $font;
-                        font-size: 1.5rem;
-                        color: $color-texto-gris;
-                        font-weight: 200;
-                    }
-                    .div-compra-protegida{
-                        display: flex;
-                        position: relative;
-                        width: 95%;
-                        top: 1rem;
-                        .icon-compra-protegida{
-                            width: 2.4rem;
-                            height: 2.4rem;
-                        }
-                        .p-compra-protegida{
-                            position: relative;
-                            left: 1rem;
-                            color: $color-texto-gris-ayuda;
-                            font-family: $font;
-                            font-weight: 200;
-                        }
-                    }
-                }
-            }
-            .grid-descripcion-productos{
-                grid-area: grid-descripcion-productos;
-                width: 100%;
-                height: 100%;
-                .div-descripcion{
-                    border-top: $bordes $borde-compra-productos;
-                    border-bottom: $bordes $borde-compra-productos;
-                    left: 5%;
-                    height: 20%;
-                    position: relative;
-                    width: 90%;
-                    .h3-titulo-descripcion{
-                        font-family: $font;
-                        position: relative;
-                        text-align: center;
-                        top: 2.5rem;
-                        font-size: 1.5rem;
-                        color: $color-texto-gris;
-                        font-weight: 200;
-                    }
-                }
-                .div-p-descripcion{
-                    position: relative;
-                    left: 5%;
-                    width: 90%;
-                    .p-descripcion{
-                        font-family: $font;
-                        font-weight: 200;
-                        font-size: 1.1rem;
-                        position: relative;
-                        color: $color-texto-gris-ayuda;
-                        top: 3rem;
-                    } 
-                }
-            }
-        }
-    }
 }

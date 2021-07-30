@@ -1,6 +1,6 @@
 @media only screen and (min-width:576px) and (max-width:767px){
     .section-productos{
-        @include section-productos(0,9rem,3rem);
+        @include section-productos(0,8rem,3rem);
         .titulo-productos{
             @include titulo-productos(99.5%,0,3.5rem,1.9rem,center);
             border-bottom: $bordes $color-texto-gris;
@@ -8,11 +8,12 @@
         div{
             .div-row-productos{
                 position: relative;
-                height: 83rem;
+                left: 1.5rem;
+                height: 138rem;
                 .card-contenedor{
-                    @include card-contenedor(9.5rem,18rem);
+                    @include card-contenedor(12.5rem,19.5rem);
                     grid-template-columns: 50% 50%;
-                    grid-template-rows: 60% 5% 35%;
+                    grid-template-rows: 63% 18% 19%;
                     grid-template-areas: 
                                         "img-card img-card"
                                         "precio-card envio-card"
@@ -33,7 +34,10 @@
                     }
                     .texto-card{
                         @include precio-texto-cards(1rem,200);
-                        @include texto-card(texto-card,0.5rem,0rem,0);
+                        @include texto-card(texto-card,0.0,0,0);
+                        width: 95%;
+                        position: relative;
+                        left: 2.5%;
                         text-align: center;
                     }        
                 }
@@ -55,7 +59,7 @@
                 .card-contenedor{
                     @include card-contenedor(13rem,20rem);
                     grid-template-columns: 50% 50%;
-                    grid-template-rows: 70% 15% 15%;
+                    grid-template-rows: 65% 17% 18%;
                     grid-template-areas: 
                     "img-card img-card"
                     "precio-card envio-card"
@@ -75,7 +79,11 @@
                     }
                     .texto-card{
                         @include precio-texto-cards(1rem,200);
-                        @include texto-card(texto-card,0,1rem,0);
+                        @include texto-card(texto-card,0,0,0);
+                        text-align: center;
+                        position: relative;
+                        width: 95%;
+                        left: 2.5%;
                     }        
                 }
             }
