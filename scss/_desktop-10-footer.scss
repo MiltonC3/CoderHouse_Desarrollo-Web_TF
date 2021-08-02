@@ -2,7 +2,7 @@
     background-color: $bgcolor-header-nav-footer;
     display: grid;
     grid-template-columns: 29.4% 15% 15% 15% 25.5%;
-    grid-template-rows: 10rem 7rem;
+    grid-template-rows: 11rem 7rem;
     grid-template-areas: 
                         "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2"
                         "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright";
@@ -42,14 +42,8 @@
         }
         .redes-animacion{
             border: $color1-bordes $bordes;
-            @include anim-infinito(anim-redes);
-            @keyframes anim-redes{
-                0%{border:$color1-bordes $bordes;}
-                25%{border:$color1-bordes $bordes;}
-                50%{border:$color2-bordes $bordes;}
-                75%{border:$color2-bordes $bordes;}
-                100%{border:$color1-bordes $bordes;}
-            }
+            @include anim-infinito(border-anim);
+            @include border-animacion($bordes);
         }
         .footer__correo{
             grid-area: footer__div-correo;
@@ -75,19 +69,8 @@
         .telefono-animacion{
             border-left: $color1-bordes $bordes;
             border-right: $color1-bordes $bordes;
-            @include anim-infinito(telefono-anim);
-            @keyframes telefono-anim{
-                0%{border-left:$color1-bordes $bordes;
-                   border-right:$color1-bordes $bordes;}
-                25%{border-left:$color1-bordes $bordes;
-                    border-right:$color1-bordes $bordes;}
-                50%{border-left:$color2-bordes $bordes;
-                    border-right:$color2-bordes $bordes;}
-                75%{border-left:$color2-bordes $bordes;
-                    border-right:$color2-bordes $bordes;}
-                100%{border-left:$color1-bordes $bordes;
-                    border-right:$color1-bordes $bordes;}
-            }
+            @include anim-infinito(bordes-animaciones);
+            @include left-right-animacion($bordes,$bordes);
         }
         .footer__copyright{
             grid-area: footer__div-copyright;

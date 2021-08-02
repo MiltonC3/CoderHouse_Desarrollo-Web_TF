@@ -51,7 +51,7 @@
                     @include texto-div(1.8rem,200,2rem,$color-texto-gris);
                 }
                 .p-cuotas-compra{
-                    @include texto-div(2.5rem,200,1.1rem,$color-texto-gris-texto);
+                    @include texto-div(2.5rem,200,1.1rem,$color-texto-parrafo);
                     .strong-cuotas{
                         @include texto-div(0,300,1.1rem,$color2-bordes);
                     }
@@ -82,7 +82,7 @@
                     @include texto-div(1rem,200,1.5rem,$color-texto-gris);
                 }
                 .h4-pagos{
-                    @include texto-div(0,200,1.2rem,$color-texto-gris-texto);
+                    @include texto-div(0,200,1.2rem,$color-texto-parrafo);
                 }
                 .medio-credito{
                     position: relative;
@@ -136,7 +136,7 @@
                         height: 2.4rem;
                     }
                     .p-compra-protegida{
-                        @include texto-div(0,200,1rem,$color-texto-gris-texto);
+                        @include texto-div(0,200,1rem,$color-texto-parrafo);
                         left: 1rem;
                     }
                 }
@@ -155,7 +155,7 @@
             .div-p-descripcion{
                 @include div-productos(90%,80%,5%,none,none);
                 .p-descripcion{
-                    @include texto-div(3rem,200,1.1rem,$color-texto-gris-texto);
+                    @include texto-div(3rem,200,1.1rem,$color-texto-parrafo);
                 } 
             }
         }
@@ -180,9 +180,11 @@
                                 "grid-pagos-productos"
                                 "grid-garantia-productos"
                                 "grid-descripcion-productos";
+            //grid img//
             .grid-img-productos{
                 @include img-productos(75%);
             }
+            //grid compra//
             .grid-compra-productos{
                 @include grid-productos(grid-compra-productos,none);
                 .div-compra-titulo{
@@ -200,6 +202,7 @@
                     }
                 }  
             }
+            //grid pagos//
             .grid-pagos-productos{
                 @include grid-productos(grid-pagos-productos,none);
                 .div-medios-pagos{
@@ -209,6 +212,7 @@
                     }
                 }
             }
+            //grid garantia//
             .grid-garantia-productos{
                 @include grid-productos(grid-garantia-productos,none);
                 .div-garantia{
@@ -219,7 +223,7 @@
                     .div-compra-protegida{
                         top: 2.5rem;
                         .p-compra-protegida{
-                            @include texto-div(0.7rem,200,1rem,$color-texto-gris-texto);
+                            @include texto-div(0.7rem,200,1rem,$color-texto-parrafo);
                         }
                     }
                 }

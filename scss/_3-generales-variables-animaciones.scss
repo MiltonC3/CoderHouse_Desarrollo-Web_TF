@@ -7,5 +7,28 @@ $font: 'Mukta', sans-serif;
     animation-name: $name-anim;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    animation-duration: 4s;
+    animation-duration: 5s;
+}
+@mixin border-animacion($border){
+    @keyframes border-anim{
+        0%{border: $color1-bordes $border;}
+        25%{border: $color1-bordes $border;}
+        50%{border: $color2-bordes $border}
+        75%{border: $color2-bordes $border}
+        100%{border: $color1-bordes $border}
+    }
+}
+@mixin left-right-animacion($border-right,$border-left){
+    @keyframes bordes-animaciones{
+        0%{border-right: $color1-bordes $border-right;
+           border-left: $color1-bordes $border-left;}
+        25%{border-right: $color1-bordes $border-right;
+           border-left: $color1-bordes $border-left;}
+        50%{border-right: $color2-bordes $border-right;
+           border-left: $color2-bordes $border-left;}
+        75%{border-right: $color2-bordes $border-right;
+           border-left: $color2-bordes $border-left;}
+        100%{border-right: $color1-bordes $border-right;
+           border-left: $color1-bordes $border-left;}
+    }
 }

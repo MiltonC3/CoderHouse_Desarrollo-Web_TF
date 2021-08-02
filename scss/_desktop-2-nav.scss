@@ -19,15 +19,11 @@
             border-right: $color1-bordes $bordes;
             @include anim-infinito(animNav);
             @keyframes animNav{
-                0%{border-right: $color1-bordes$bordes;}
-                25%{border-right:$color1-bordes $bordes;    
-                }
-                50%{border-right: $color2-bordes$bordes;    
-                }
-                75%{border-right: $color2-bordes$bordes;    
-                }
-                100%{border-right:     $color1-bordes$bordes;
-                }
+                0%{border-right:$color1-bordes $bordes;}
+                25%{border-right:$color1-bordes $bordes;}
+                50%{border-right:$color2-bordes $bordes;}
+                75%{border-right:$color2-bordes $bordes;}
+                100%{border-right:$color1-bordes $bordes;}
             }
         }
         div{

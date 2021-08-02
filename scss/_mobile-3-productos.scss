@@ -3,7 +3,7 @@
         @include section-productos(0,7.5rem,2rem);
         .titulo-productos{
             @include titulo-productos(100%,0,3.5rem,1.7rem,center);
-            border-bottom: $bordes $color-texto-gris;
+            border-bottom: $bordes $borde-compra-productos;
         }
         div{
             .div-row-productos{
@@ -48,7 +48,7 @@
         @include section-productos(0,7.5rem,2rem);
         .titulo-productos{
             @include titulo-productos(100%,0,3.5rem,1.7rem,center);
-            border-bottom: $bordes $color-texto-gris;
+            border-bottom: $bordes $borde-compra-productos;
         }
         div{
             .div-row-productos{

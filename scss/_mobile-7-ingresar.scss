@@ -4,7 +4,7 @@
     position: relative;
     .div-iniciar-sesion{
         .iniciar-sesion{
-            @include ayuda-titulo(5rem,underline 1px,1.5rem,300);
+            @include ayuda-titulo(5rem,1.5rem,300);
         }
         form{
             position: relative;

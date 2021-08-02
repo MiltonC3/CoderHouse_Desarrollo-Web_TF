@@ -79,13 +79,12 @@ body {
   .section-publicidad {
     height: 24rem; }
     .section-publicidad .animacion-publicidad {
-      animation-name: anim-publicidad;
+      border: #5f9ea0 1px solid;
+      animation-name: border-anim;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s;
-      border: #5f9ea0 1px solid;
-      animation-name: anim-publicidad; }
-  @keyframes anim-publicidad {
+      animation-duration: 5s; }
+  @keyframes border-anim {
     0% {
       border: #5f9ea0 1px solid; }
     25% {
@@ -114,7 +113,7 @@ body {
           .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
             position: relative;
             text-decoration: underline 1px;
-            color: #c7c7c7;
+            color: #d8d8d8;
             top: 1.4rem;
             font-weight: 300;
             font-family: "Mukta", sans-serif;
@@ -146,7 +145,7 @@ body {
     .section-publicidad .row-publicidad-index {
       display: grid;
       width: 84%;
-      height: 82%;
+      height: 80%;
       margin-top: 10rem;
       margin-left: 8%;
       border-radius: 0.5rem;
@@ -157,14 +156,14 @@ body {
         margin-top: 1rem;
         grid-area: div-carrousel-1; }
         .section-publicidad .row-publicidad-index .div-carrousel-1 .size-carrousel-1 {
-          width: 87%;
+          width: 84%;
           position: relative;
           left: 8%; }
       .section-publicidad .row-publicidad-index .div-carrousel-2 {
         margin-top: 1rem;
         grid-area: div-carrousel-2; }
         .section-publicidad .row-publicidad-index .div-carrousel-2 .size-carrousel-2 {
-          width: 87%;
+          width: 84%;
           left: 4%;
           position: relative; } }
 
@@ -183,8 +182,8 @@ body {
       font-size: 1.7rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       position: relative;
       height: 150rem;
@@ -207,7 +206,7 @@ body {
           border-top-right-radius: 0;
           border-bottom-left-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1.3rem;
@@ -217,7 +216,7 @@ body {
           margin-left: 2.3rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.75rem;
@@ -229,7 +228,7 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1rem;
@@ -256,8 +255,8 @@ body {
       font-size: 1.7rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       position: relative;
       height: 210rem;
@@ -280,7 +279,7 @@ body {
           border-top-right-radius: 0;
           border-bottom-left-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.4rem;
@@ -290,7 +289,7 @@ body {
           margin-left: 0;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -302,7 +301,7 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1.1rem;
@@ -354,7 +353,7 @@ body {
             top: 0.5rem;
             font-weight: 200;
             font-size: 1.7rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
           position: relative;
           width: 90%;
@@ -372,7 +371,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
             position: relative;
             top: 2rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -409,14 +408,14 @@ body {
             top: 1.8rem;
             font-weight: 200;
             font-size: 2rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 2.5rem;
             font-weight: 200;
             font-size: 1rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
               font-family: "Mukta", sans-serif;
               position: relative;
@@ -427,7 +426,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
             position: relative;
             top: 3rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -486,14 +485,14 @@ body {
             top: 1rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 0;
             font-weight: 200;
             font-size: 1.2rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
             position: relative;
             top: 1.5rem; }
@@ -518,7 +517,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
             position: relative;
             top: 5rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -547,7 +546,7 @@ body {
             top: 1rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
             display: flex;
             position: relative;
@@ -562,7 +561,7 @@ body {
               top: 0.7rem;
               font-weight: 200;
               font-size: 1rem;
-              color: #a1a1a1;
+              color: #b3b3b3;
               left: 1rem; }
       .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
         grid-area: grid-descripcion-productos;
@@ -582,7 +581,7 @@ body {
             top: 2rem;
             font-weight: 200;
             font-size: 1.4rem;
-            color: #c7c7c7;
+            color: #d8d8d8;
             text-align: center; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
           position: relative;
@@ -596,22 +595,30 @@ body {
             position: relative;
             top: 2rem;
             font-weight: 200;
-            font-size: 1.1rem;
-            color: #a1a1a1; } }
+            font-size: 1rem;
+            color: #b3b3b3; } }
 
 @media only screen and (max-width: 575px) and (max-width: 425px) {
-  .section-paginas-productos .grid-padre-productos .grid-img-productos {
-    width: 90%; } }
+  .section-paginas-productos {
+    width: 100%;
+    position: relative;
+    height: 126rem;
+    margin-top: 6rem;
+    left: 0; }
+    .section-paginas-productos .grid-padre-productos {
+      grid-template-rows: 20% 29% 21% 7% 24%; }
+      .section-paginas-productos .grid-padre-productos .grid-img-productos {
+        width: 85%; } }
 
 @media only screen and (max-width: 575px) {
   .section-nosotros {
-    height: 80rem;
+    height: 82rem;
     display: flex;
     justify-content: center; }
     .section-nosotros .div-contenedor-nosotros {
       width: 90%;
       position: relative;
-      height: 70rem;
+      height: 73rem;
       top: 7rem;
       display: flex;
       flex-direction: column;
@@ -621,16 +628,15 @@ body {
         font-size: 1.5rem;
         font-family: "Mukta", sans-serif;
         text-align: center;
-        text-decoration: underline 1px;
         font-weight: 300;
-        color: #c7c7c7; }
+        color: #d8d8d8; }
       .section-nosotros .div-contenedor-nosotros div .p-texto-nosotros {
         position: relative;
         left: 5%;
         width: 90%;
         font-weight: 200;
-        font-size: 0.9rem;
-        color: #c7c7c7;
+        font-size: 0.95rem;
+        color: #b3b3b3;
         font-family: "Mukta", sans-serif; }
       .section-nosotros .div-contenedor-nosotros div .img-nosotros {
         border-radius: 0.5rem;
@@ -644,9 +650,8 @@ body {
     .section-ayuda .titulo-ayuda {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 7rem;
       text-align: center;
@@ -654,9 +659,8 @@ body {
     .section-ayuda .subtitulo-ayuda {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: none;
       font-weight: 200;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 8rem;
       text-align: center;
@@ -742,9 +746,8 @@ body {
     .section-preguntas-frecuentes .titulo-preguntas-frecuentes {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -769,13 +772,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas1 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas1 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1.5rem;
@@ -801,13 +804,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas2 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas2 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1.5rem;
@@ -833,13 +836,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas3 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas3 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1.5rem;
@@ -852,9 +855,8 @@ body {
     .section-usuario .div-iniciar-sesion .iniciar-sesion {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 5rem;
       text-align: center;
@@ -913,9 +915,8 @@ body {
       .section-registro .div-registro .titulo-crear-cuenta {
         font-family: "Mukta", sans-serif;
         text-align: center;
-        text-decoration: underline 1px;
         font-weight: 300;
-        color: #c7c7c7;
+        color: #d8d8d8;
         position: relative;
         top: 1rem;
         text-align: center;
@@ -1039,11 +1040,11 @@ body {
         opacity: 0.8; }
     .footer__contenedor-padre .redes-animacion {
       border: #5f9ea0 1px solid;
-      animation-name: anim-redes;
+      animation-name: border-anim;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s; }
-  @keyframes anim-redes {
+      animation-duration: 5s; }
+  @keyframes border-anim {
     0% {
       border: #5f9ea0 1px solid; }
     25% {
@@ -1084,26 +1085,26 @@ body {
     .footer__contenedor-padre .telefono-animacion {
       border-left: #5f9ea0 1px solid;
       border-right: #5f9ea0 1px solid;
-      animation-name: telefono-anim;
+      animation-name: bordes-animaciones;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s; }
-  @keyframes telefono-anim {
+      animation-duration: 5s; }
+  @keyframes bordes-animaciones {
     0% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     25% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     50% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     75% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     100% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; } }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; } }
     .footer__contenedor-padre .footer__copyright {
       grid-area: footer__div-copyright; }
       .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
@@ -1193,12 +1194,12 @@ body {
   .section-publicidad {
     height: 25rem; }
     .section-publicidad .animacion-publicidad {
-      animation-name: anim-publicidad;
+      border: #5f9ea0 1px solid;
+      animation-name: border-anim;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s;
-      border: #5f9ea0 1px solid; }
-  @keyframes anim-publicidad {
+      animation-duration: 5s; }
+  @keyframes border-anim {
     0% {
       border: #5f9ea0 1px solid; }
     25% {
@@ -1215,7 +1216,7 @@ body {
       margin-top: 12rem;
       border-radius: 0.5rem;
       grid-template-columns: 33.34% 33.34% 33.34%;
-      grid-template-rows: 3rem 18rem;
+      grid-template-rows: 5rem 14.5rem;
       grid-template-areas: "div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-2 div-carrousel-3"; }
       .section-publicidad .row-publicidad-index .div-publicidad {
         grid-area: div-publicidad;
@@ -1224,7 +1225,7 @@ body {
           text-decoration: none; }
           .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
             position: relative;
-            color: #c7c7c7;
+            color: #d8d8d8;
             top: 2.3rem;
             font-weight: 300;
             font-family: "Mukta", sans-serif;
@@ -1256,6 +1257,22 @@ body {
             border-radius: 1rem; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
+  .section-publicidad {
+    height: 22rem; }
+    .section-publicidad .row-publicidad-index {
+      height: 80%;
+      grid-template-rows: 4.5rem 13rem; }
+      .section-publicidad .row-publicidad-index .div-carrousel-1 .size-carrousel-1 {
+        width: 95%;
+        margin-left: 0.3rem; }
+      .section-publicidad .row-publicidad-index .div-carrousel-2 .size-carrousel-2 {
+        width: 95%;
+        margin-left: 0.3rem; }
+      .section-publicidad .row-publicidad-index .div-carrousel-3 .size-carrousel-3 {
+        width: 95%;
+        margin-left: 0.3rem; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
   .section-productos {
     position: relative;
     left: 0;
@@ -1270,8 +1287,8 @@ body {
       font-size: 1.9rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       position: relative;
       left: 1.5rem;
@@ -1293,7 +1310,7 @@ body {
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.2rem;
@@ -1303,7 +1320,7 @@ body {
           margin-left: 1rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -1315,7 +1332,7 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1rem;
@@ -1344,8 +1361,8 @@ body {
       font-size: 2rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       position: relative;
       height: 95rem; }
@@ -1366,7 +1383,7 @@ body {
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.2rem;
@@ -1376,7 +1393,7 @@ body {
           margin-left: 1rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -1388,7 +1405,7 @@ body {
           color: #5f9ea0;
           justify-self: end; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1rem;
@@ -1443,7 +1460,7 @@ body {
             top: 0.5rem;
             font-weight: 200;
             font-size: 1.7rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
           position: relative;
           width: 90%;
@@ -1461,7 +1478,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
             position: relative;
             top: 2rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -1498,14 +1515,14 @@ body {
             top: 1.8rem;
             font-weight: 200;
             font-size: 2rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 2.5rem;
             font-weight: 200;
             font-size: 1.1rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
               font-family: "Mukta", sans-serif;
               position: relative;
@@ -1516,7 +1533,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
             position: relative;
             top: 3rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -1575,14 +1592,14 @@ body {
             top: 1rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 0;
             font-weight: 200;
             font-size: 1.2rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
             position: relative;
             top: 1.5rem; }
@@ -1607,7 +1624,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
             position: relative;
             top: 5.5rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -1635,7 +1652,7 @@ body {
             top: 0;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
             display: flex;
             position: relative;
@@ -1650,7 +1667,7 @@ body {
               top: 0;
               font-weight: 200;
               font-size: 1rem;
-              color: #a1a1a1;
+              color: #b3b3b3;
               left: 1rem; }
       .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
         grid-area: grid-descripcion-productos;
@@ -1670,7 +1687,7 @@ body {
             top: 2.5rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7;
+            color: #d8d8d8;
             text-align: center; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
           position: relative;
@@ -1685,7 +1702,7 @@ body {
             top: 3rem;
             font-weight: 200;
             font-size: 1.1rem;
-            color: #a1a1a1; } }
+            color: #b3b3b3; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px) {
   .section-paginas-productos {
@@ -1758,7 +1775,7 @@ body {
             top: 1rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
             top: 2.5rem; }
             .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida .p-compra-protegida {
@@ -1767,7 +1784,7 @@ body {
               top: 0.7rem;
               font-weight: 200;
               font-size: 1rem;
-              color: #a1a1a1; }
+              color: #b3b3b3; }
       .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-descripcion {
         position: relative;
         width: 90%;
@@ -1781,7 +1798,7 @@ body {
           top: 1.7rem;
           font-weight: 200;
           font-size: 1.5rem;
-          color: #c7c7c7;
+          color: #d8d8d8;
           text-align: center; } }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
@@ -1803,16 +1820,13 @@ body {
         margin-bottom: 1rem;
         font-family: "Mukta", sans-serif;
         text-align: center;
-        text-decoration: underline 1px;
         font-weight: 300;
-        color: #c7c7c7; }
+        color: #d8d8d8; }
       .section-nosotros .div-contenedor-nosotros div .p-texto-nosotros {
-        position: relative;
-        left: 5%;
-        width: 90%;
+        width: 100%;
         font-weight: 200;
         font-size: 1.1rem;
-        color: #c7c7c7;
+        color: #b3b3b3;
         font-family: "Mukta", sans-serif; }
       .section-nosotros .div-contenedor-nosotros div .img-nosotros {
         border-radius: 0.5rem;
@@ -1825,9 +1839,8 @@ body {
     .section-ayuda .titulo-ayuda {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 8rem;
       text-align: center;
@@ -1835,9 +1848,8 @@ body {
     .section-ayuda .subtitulo-ayuda {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: none;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 10rem;
       text-align: center;
@@ -1919,9 +1931,8 @@ body {
     .section-preguntas-frecuentes .titulo-preguntas-frecuentes {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -1946,13 +1957,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas1 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas1 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1.5rem;
@@ -1978,13 +1989,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas2 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas2 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1.5rem;
@@ -2010,13 +2021,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas3 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas3 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1.5rem;
@@ -2029,9 +2040,8 @@ body {
     .section-usuario .div-iniciar-sesion .iniciar-sesion {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 5rem;
       text-align: center;
@@ -2090,9 +2100,8 @@ body {
       .section-registro .div-registro .titulo-crear-cuenta {
         font-family: "Mukta", sans-serif;
         text-align: center;
-        text-decoration: underline 1px;
         font-weight: 300;
-        color: #c7c7c7;
+        color: #d8d8d8;
         position: relative;
         top: 3rem;
         text-align: center;
@@ -2258,11 +2267,11 @@ body {
         opacity: 0.8; }
     .footer__contenedor-padre .redes-animacion {
       border: #5f9ea0 1px solid;
-      animation-name: anim-redes;
+      animation-name: border-anim;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s; }
-  @keyframes anim-redes {
+      animation-duration: 5s; }
+  @keyframes border-anim {
     0% {
       border: #5f9ea0 1px solid; }
     25% {
@@ -2304,26 +2313,26 @@ body {
     .footer__contenedor-padre .telefono-animacion {
       border-left: #5f9ea0 1px solid;
       border-right: #5f9ea0 1px solid;
-      animation-name: telefono-anim;
+      animation-name: bordes-animaciones;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s; }
-  @keyframes telefono-anim {
+      animation-duration: 5s; }
+  @keyframes bordes-animaciones {
     0% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     25% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     50% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     75% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     100% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; } }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; } }
     .footer__contenedor-padre .footer__copyright {
       grid-area: footer__div-copyright; }
       .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
@@ -2392,7 +2401,7 @@ body {
     animation-name: animNav;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    animation-duration: 4s; }
+    animation-duration: 5s; }
   @keyframes animNav {
     0% {
       border-right: #5f9ea0 1px solid; }
@@ -2483,28 +2492,28 @@ body {
           .section-publicidad .row-publicidad-index .div-carrousel-2 .size-carrousel-2 .border-carrousel-2 {
             border-radius: 1rem; }
       .section-publicidad .row-publicidad-index .animacion-carrousel2-publicidad {
-        animation-name: anim-carrousel-2;
+        border-left: #5f9ea0 1px solid;
+        border-right: #5f9ea0 1px solid;
+        animation-name: bordes-animaciones;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
-        animation-duration: 4s;
-        border-left: #5f9ea0 1px solid;
-        border-right: #5f9ea0 1px solid; }
-  @keyframes anim-carrousel-2 {
+        animation-duration: 5s; }
+  @keyframes bordes-animaciones {
     0% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     25% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     50% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     75% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     100% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; } }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; } }
       .section-publicidad .row-publicidad-index .div-carrousel-3 {
         grid-area: div-carrousel-3;
         align-self: center; }
@@ -2526,12 +2535,29 @@ body {
           .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad {
             position: relative;
             font-weight: 300;
-            color: #c7c7c7;
+            color: #d8d8d8;
             top: 1rem;
             font-family: "Mukta", sans-serif;
             font-size: 1.2rem; }
             .section-publicidad .row-publicidad-index .div-publicidad a .div-a-publicidad:hover {
-              text-decoration: underline 1px; }
+              text-decoration: underline 1px; } }
+
+@media only screen and (min-width: 992px) and (min-width: 992px) and (max-width: 1399px) {
+  .section-publicidad {
+    margin-top: 11rem;
+    height: 26rem; }
+    .section-publicidad .row-publicidad-index {
+      grid-template-rows: 19rem 5rem; } }
+
+@media only screen and (min-width: 992px) and (min-width: 1700px) {
+  .section-publicidad .row-publicidad-index .div-carrousel-1 .size-carrousel-1 {
+    margin-left: 3.4rem; }
+  .section-publicidad .row-publicidad-index .div-carrousel-2 .size-carrousel-2 {
+    margin-left: 3.4rem; }
+  .section-publicidad .row-publicidad-index .div-carrousel-3 .size-carrousel-3 {
+    margin-left: 3.4rem; } }
+
+@media only screen and (min-width: 992px) {
   .section-productos {
     position: relative;
     left: 3.5%;
@@ -2546,8 +2572,8 @@ body {
       font-size: 2.2rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       height: 84rem; }
       .section-productos div .div-row-productos .card-contenedor {
@@ -2570,7 +2596,7 @@ body {
           border-top-left-radius: 0.4rem;
           border-top-right-radius: 0.4rem; }
         .section-productos div .div-row-productos .card-contenedor .precio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 1.3rem;
@@ -2580,7 +2606,7 @@ body {
           margin-left: 1rem;
           margin-right: 0; }
         .section-productos div .div-row-productos .card-contenedor .envio-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 300;
           font-size: 0.8rem;
@@ -2592,7 +2618,7 @@ body {
           justify-self: end;
           color: #5f9ea0; }
         .section-productos div .div-row-productos .card-contenedor .texto-card {
-          color: #c7c7c7;
+          color: #d8d8d8;
           font-family: "Mukta", sans-serif;
           font-weight: 200;
           font-size: 1.1rem;
@@ -2617,8 +2643,8 @@ body {
       font-size: 2.1rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       position: relative;
       left: 5%;
@@ -2640,8 +2666,8 @@ body {
       font-size: 2.1rem;
       text-align: center;
       font-family: "Mukta", sans-serif;
-      color: #c7c7c7;
-      border-bottom: 1px solid #c7c7c7; }
+      color: #d8d8d8;
+      border-bottom: 1px solid #444444; }
     .section-productos div .div-row-productos {
       position: relative;
       left: 5%;
@@ -2667,7 +2693,7 @@ body {
       grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
-        width: 80%;
+        width: 75%;
         justify-self: center;
         align-self: center;
         border-radius: 0.5rem; }
@@ -2689,7 +2715,7 @@ body {
             top: 0.5rem;
             font-weight: 200;
             font-size: 1.7rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra {
           position: relative;
           width: 75%;
@@ -2707,7 +2733,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-envio-compra .modal-envio-compra {
             position: relative;
             top: 2rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -2744,14 +2770,14 @@ body {
             top: 1.8rem;
             font-weight: 200;
             font-size: 2rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 2.5rem;
             font-weight: 200;
             font-size: 1.1rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
             .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .p-cuotas-compra .strong-cuotas {
               font-family: "Mukta", sans-serif;
               position: relative;
@@ -2762,7 +2788,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-precio-compra .medios-pago-compra {
             position: relative;
             top: 3rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -2821,14 +2847,14 @@ body {
             top: 1rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7; }
+            color: #d8d8d8; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .h4-pagos {
             font-family: "Mukta", sans-serif;
             position: relative;
             top: 0;
             font-weight: 200;
             font-size: 1.2rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medio-credito {
             position: relative;
             top: 1.5rem; }
@@ -2853,7 +2879,7 @@ body {
           .section-paginas-productos .grid-padre-productos .grid-pagos-productos .div-medios-pagos .medios-pago-compra {
             position: relative;
             top: 5.5rem;
-            color: #a1a1a1;
+            color: #b3b3b3;
             font-size: 1rem;
             font-family: "Mukta", sans-serif;
             background-color: #0a0a0a;
@@ -2881,7 +2907,7 @@ body {
             top: 0;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
           .section-paginas-productos .grid-padre-productos .grid-garantia-productos .div-garantia .div-compra-protegida {
             display: flex;
             position: relative;
@@ -2896,7 +2922,7 @@ body {
               top: 0.7rem;
               font-weight: 200;
               font-size: 1rem;
-              color: #a1a1a1;
+              color: #b3b3b3;
               left: 1rem; }
       .section-paginas-productos .grid-padre-productos .grid-descripcion-productos {
         grid-area: grid-descripcion-productos;
@@ -2916,7 +2942,7 @@ body {
             top: 2.5rem;
             font-weight: 200;
             font-size: 1.5rem;
-            color: #c7c7c7;
+            color: #d8d8d8;
             text-align: center; }
         .section-paginas-productos .grid-padre-productos .grid-descripcion-productos .div-p-descripcion {
           position: relative;
@@ -2931,43 +2957,90 @@ body {
             top: 3rem;
             font-weight: 200;
             font-size: 1.1rem;
-            color: #a1a1a1; }
+            color: #b3b3b3; }
   .section-nosotros {
     position: relative;
     left: 2%;
-    height: 115rem;
-    display: flex;
-    justify-content: center; }
+    height: 85rem; }
     .section-nosotros .div-contenedor-nosotros {
-      width: 100%;
+      width: 85%;
+      left: 7.5%;
       position: relative;
-      height: 100rem;
-      top: 9rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
+      height: 70rem;
+      top: 11rem;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 7% 10% 10% 26% 10% 10% 27%;
+      grid-template-areas: "div-titulo-nosotros div-titulo-nosotros" "parrafo-nosotros-1 parrafo-nosotros-1" "parrafo-nosotros-2 parrafo-nosotros-2" "img-nosotros-1 img-nosotros-2" "parrafo-nosotros-3 parrafo-nosotros-3" "parrafo-nosotros-4 parrafo-nosotros-4" "img-nosotros-3 img-nosotros-3"; }
+      .section-nosotros .div-contenedor-nosotros .div-titulo-nosotros {
+        grid-area: div-titulo-nosotros; }
+      .section-nosotros .div-contenedor-nosotros .parrafo-nosotros-1 {
+        grid-area: parrafo-nosotros-1; }
+      .section-nosotros .div-contenedor-nosotros .parrafo-nosotros-2 {
+        grid-area: parrafo-nosotros-2; }
+      .section-nosotros .div-contenedor-nosotros .parrafo-nosotros-3 {
+        grid-area: parrafo-nosotros-3; }
+      .section-nosotros .div-contenedor-nosotros .parrafo-nosotros-4 {
+        grid-area: parrafo-nosotros-4; }
+      .section-nosotros .div-contenedor-nosotros .img-nosotros-1 {
+        grid-area: img-nosotros-1; }
+        .section-nosotros .div-contenedor-nosotros .img-nosotros-1 .img-nosotros {
+          width: 90%;
+          position: relative;
+          left: 5%;
+          border-radius: 0.5rem;
+          opacity: 0.7;
+          transition: 1s ease; }
+          .section-nosotros .div-contenedor-nosotros .img-nosotros-1 .img-nosotros:hover {
+            opacity: 0.9; }
+      .section-nosotros .div-contenedor-nosotros .img-nosotros-2 {
+        grid-area: img-nosotros-2; }
+        .section-nosotros .div-contenedor-nosotros .img-nosotros-2 .img-nosotros {
+          width: 90%;
+          position: relative;
+          left: 5%;
+          border-radius: 0.5rem;
+          opacity: 0.7;
+          transition: 1s ease; }
+          .section-nosotros .div-contenedor-nosotros .img-nosotros-2 .img-nosotros:hover {
+            opacity: 0.9; }
+      .section-nosotros .div-contenedor-nosotros .img-nosotros-3 {
+        grid-area: img-nosotros-3;
+        align-self: center;
+        justify-self: center; }
+        .section-nosotros .div-contenedor-nosotros .img-nosotros-3 .img-nosotros {
+          border-radius: 0.5rem;
+          opacity: 0.7;
+          transition: 1s ease; }
+          .section-nosotros .div-contenedor-nosotros .img-nosotros-3 .img-nosotros:hover {
+            opacity: 0.9; }
       .section-nosotros .div-contenedor-nosotros div .titulo-nosotros {
         font-size: 1.8rem;
         font-family: "Mukta", sans-serif;
         text-align: center;
-        text-decoration: underline 1px;
         font-weight: 300;
-        color: #c7c7c7; }
+        color: #d8d8d8; }
       .section-nosotros .div-contenedor-nosotros div .p-texto-nosotros {
         position: relative;
-        left: 15%;
-        width: 70%;
+        left: 5%;
+        width: 90%;
         font-weight: 200;
-        font-size: 1.1rem;
-        color: #c7c7c7;
-        font-family: "Mukta", sans-serif; }
-      .section-nosotros .div-contenedor-nosotros div .img-nosotros {
-        border-radius: 0.5rem;
-        opacity: 0.7;
-        transition: 1s ease; }
-        .section-nosotros .div-contenedor-nosotros div .img-nosotros:hover {
-          opacity: 0.9; }
+        font-size: 1.15rem;
+        color: #b3b3b3;
+        font-family: "Mukta", sans-serif; } }
+
+@media only screen and (min-width: 992px) and (min-width: 992px) and (max-width: 1199px) {
+  .section-nosotros {
+    height: 82rem; }
+    .section-nosotros .div-contenedor-nosotros {
+      height: 65rem;
+      grid-template-rows: 7% 9% 11.5% 21.5% 11.5% 11.5% 28%; } }
+
+@media only screen and (min-width: 992px) and (min-width: 1200px) and (max-width: 1399px) {
+  .section-nosotros .div-contenedor-nosotros {
+    grid-template-rows: 7% 10% 12% 23% 10% 10% 28%; } }
+
+@media only screen and (min-width: 992px) {
   .section-ayuda {
     position: relative;
     left: 3%;
@@ -2975,9 +3048,8 @@ body {
     .section-ayuda .titulo-ayuda {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 11rem;
       text-align: center;
@@ -2985,9 +3057,8 @@ body {
     .section-ayuda .subtitulo-ayuda {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: none;
       font-weight: 200;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 14rem;
       text-align: center;
@@ -3070,9 +3141,8 @@ body {
     .section-preguntas-frecuentes .titulo-preguntas-frecuentes {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 4rem;
       text-align: center;
@@ -3097,13 +3167,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas1 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas1 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1rem;
@@ -3129,13 +3199,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas2 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas2 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1rem;
@@ -3161,13 +3231,13 @@ body {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; }
       .section-preguntas-frecuentes .div-preguntas3 .p-preguntas {
-        color: #c7c7c7;
+        color: #d8d8d8;
         font-family: "Mukta", sans-serif;
         font-weight: 300;
         font-size: 1.1rem;
         text-align: center; }
       .section-preguntas-frecuentes .div-preguntas3 .p-respuestas {
-        color: #7e7e7e;
+        color: #969696;
         font-family: "Mukta", sans-serif;
         font-weight: 200;
         margin-top: 1rem;
@@ -3181,9 +3251,8 @@ body {
     .section-usuario .div-iniciar-sesion .iniciar-sesion {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -3242,9 +3311,8 @@ body {
     .section-registro .div-registro .titulo-crear-cuenta {
       font-family: "Mukta", sans-serif;
       text-align: center;
-      text-decoration: underline 1px;
       font-weight: 300;
-      color: #c7c7c7;
+      color: #d8d8d8;
       position: relative;
       top: 3rem;
       text-align: center;
@@ -3352,7 +3420,7 @@ body {
     background-color: #000000;
     display: grid;
     grid-template-columns: 29.4% 15% 15% 15% 25.5%;
-    grid-template-rows: 10rem 7rem;
+    grid-template-rows: 11rem 7rem;
     grid-template-areas: "footer__div-footer1 footer__div-instagram footer__div-facebook footer__div-whatsapp footer__div-footer2" "footer__div-correo footer__div-correo footer__div-telefono footer__div-copyright footer__div-copyright"; }
     .footer__contenedor-padre .footer__div-footer1 {
       grid-area: footer__div-footer1; }
@@ -3406,11 +3474,11 @@ body {
         opacity: 0.8; }
     .footer__contenedor-padre .redes-animacion {
       border: #5f9ea0 1px solid;
-      animation-name: anim-redes;
+      animation-name: border-anim;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s; }
-  @keyframes anim-redes {
+      animation-duration: 5s; }
+  @keyframes border-anim {
     0% {
       border: #5f9ea0 1px solid; }
     25% {
@@ -3452,26 +3520,26 @@ body {
     .footer__contenedor-padre .telefono-animacion {
       border-left: #5f9ea0 1px solid;
       border-right: #5f9ea0 1px solid;
-      animation-name: telefono-anim;
+      animation-name: bordes-animaciones;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 4s; }
-  @keyframes telefono-anim {
+      animation-duration: 5s; }
+  @keyframes bordes-animaciones {
     0% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     25% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; }
     50% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     75% {
-      border-left: #F27649 1px solid;
-      border-right: #F27649 1px solid; }
+      border-right: #F27649 1px solid;
+      border-left: #F27649 1px solid; }
     100% {
-      border-left: #5f9ea0 1px solid;
-      border-right: #5f9ea0 1px solid; } }
+      border-right: #5f9ea0 1px solid;
+      border-left: #5f9ea0 1px solid; } }
     .footer__contenedor-padre .footer__copyright {
       grid-area: footer__div-copyright; }
       .footer__contenedor-padre .footer__copyright .footer__copyright--texto {

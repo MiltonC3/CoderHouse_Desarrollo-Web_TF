@@ -1,40 +1,72 @@
 .section-nosotros{
     position: relative;
     left: 2%;
-    height: 115rem;
-    display: flex;
-    justify-content: center;
+    height: 85rem;
     .div-contenedor-nosotros{
-        width: 100%;
+        width: 85%;
+        left: 7.5%;
         position: relative;
-        height: 100rem;
-        top: 9rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        div{
-            .titulo-nosotros{
-                font-size: 1.8rem;
-                font-family: $font;
-                text-align: center;
-                text-decoration: underline 1px;
-                font-weight: 300;
-                color: $color-texto-gris;
-            }
+        height: 70rem;
+        top: 11rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 7% 10% 10% 26% 10% 10% 27%;
+        grid-template-areas: 
+                           "div-titulo-nosotros div-titulo-nosotros"
+                           "parrafo-nosotros-1 parrafo-nosotros-1"
+                           "parrafo-nosotros-2 parrafo-nosotros-2"
+                           "img-nosotros-1 img-nosotros-2"
+                           "parrafo-nosotros-3 parrafo-nosotros-3"
+                           "parrafo-nosotros-4 parrafo-nosotros-4"
+                           "img-nosotros-3 img-nosotros-3";
+
+        .div-titulo-nosotros{
+            grid-area: div-titulo-nosotros;
         }
-        div{
-            .p-texto-nosotros{
+        .parrafo-nosotros-1{
+            grid-area: parrafo-nosotros-1;
+        }
+        .parrafo-nosotros-2{
+            grid-area: parrafo-nosotros-2;
+        }
+        .parrafo-nosotros-3{
+            grid-area: parrafo-nosotros-3;
+        }
+        .parrafo-nosotros-4{
+            grid-area: parrafo-nosotros-4;
+        }
+        .img-nosotros-1{
+            grid-area: img-nosotros-1;
+            .img-nosotros{
+                width: 90%;
                 position: relative;
-                left: 15%;
-                width: 70%;
-                font-weight: 200;
-                font-size: 1.1rem;
-                color: $color-texto-gris;
-                font-family: $font;
+                left: 5%;
+                border-radius: 0.5rem;
+                opacity: 0.7;
+                transition: 1s ease;
+                &:hover{
+                    opacity: 0.9;
+                }
             }
         }
-        div{
+        .img-nosotros-2{
+            grid-area: img-nosotros-2;
+            .img-nosotros{
+                width: 90%;
+                position: relative;
+                left: 5%;
+                border-radius: 0.5rem;
+                opacity: 0.7;
+                transition: 1s ease;
+                &:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+        .img-nosotros-3{
+            grid-area: img-nosotros-3;
+            align-self: center;
+            justify-self: center;
             .img-nosotros{
                 border-radius: 0.5rem;
                 opacity: 0.7;
@@ -44,6 +76,39 @@
                 }
             }
         }
+        div{
+            .titulo-nosotros{
+                font-size: 1.8rem;
+                font-family: $font;
+                text-align: center;
+                font-weight: 300;
+                color: $color-texto-gris;
+            }
+            .p-texto-nosotros{
+                position: relative;
+                left: 5%;
+                width: 90%;
+                font-weight: 200;
+                font-size: 1.15rem;
+                color: $color-texto-parrafo;
+                font-family: $font;
+            }
+        }
     }
 }
-    
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .section-nosotros{
+        height: 82rem;
+        .div-contenedor-nosotros{
+            height: 65rem;
+            grid-template-rows: 7% 9% 11.5% 21.5% 11.5% 11.5% 28%;
+        }
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1399px){
+    .section-nosotros{
+        .div-contenedor-nosotros{
+            grid-template-rows: 7% 10% 12% 23% 10% 10% 28%;
+        }
+    }
+}

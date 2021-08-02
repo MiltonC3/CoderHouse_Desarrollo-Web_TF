@@ -12,7 +12,7 @@
         
         //grid img//
         .grid-img-productos{
-            @include img-productos(80%);
+            @include img-productos(75%);
         }
         //grid compra//
         .grid-compra-productos{
@@ -50,7 +50,7 @@
                     @include texto-div(1.8rem,200,2rem,$color-texto-gris);
                 }
                 .p-cuotas-compra{
-                    @include texto-div(2.5rem,200,1.1rem,$color-texto-gris-texto);
+                    @include texto-div(2.5rem,200,1.1rem,$color-texto-parrafo);
                     .strong-cuotas{
                         @include texto-div(0,300,1.1rem,$color2-bordes);
                     }
@@ -81,7 +81,7 @@
                     @include texto-div(1rem,200,1.5rem,$color-texto-gris);
                 }
                 .h4-pagos{
-                    @include texto-div(0,200,1.2rem,$color-texto-gris-texto);
+                    @include texto-div(0,200,1.2rem,$color-texto-parrafo);
                 }
                 .medio-credito{
                     position: relative;
@@ -123,7 +123,7 @@
                 @include div-productos(75%,100%,10%,none,none);
                 top: 1rem;
                 .h3-garantia{
-                    @include texto-div(0,200,1.5rem,$color-texto-gris-texto);
+                    @include texto-div(0,200,1.5rem,$color-texto-parrafo);
                 }
                 .div-compra-protegida{
                     display: flex;
@@ -135,7 +135,7 @@
                         height: 2.4rem;
                     }
                     .p-compra-protegida{
-                        @include texto-div(0.7rem,200,1rem,$color-texto-gris-texto);
+                        @include texto-div(0.7rem,200,1rem,$color-texto-parrafo);
                         left: 1rem;
                     }
                 }
@@ -154,7 +154,7 @@
             .div-p-descripcion{
                 @include div-productos(80%,80%,10%,none,none);
                 .p-descripcion{
-                    @include texto-div(3rem,200,1.1rem,$color-texto-gris-texto);
+                    @include texto-div(3rem,200,1.1rem,$color-texto-parrafo);
                 } 
             }
         }

@@ -1,11 +1,11 @@
 .section-nosotros{
-    height: 80rem;
+    height: 82rem;
     display: flex;
     justify-content: center;
     .div-contenedor-nosotros{
         width: 90%;
         position: relative;
-        height: 70rem;
+        height: 73rem;
         top: 7rem;
         display: flex;
         flex-direction: column;
@@ -16,7 +16,6 @@
                 font-size: 1.5rem;
                 font-family: $font;
                 text-align: center;
-                text-decoration: underline 1px;
                 font-weight: 300;
                 color: $color-texto-gris;
             }
@@ -27,8 +26,8 @@
                 left: 5%;
                 width: 90%;
                 font-weight: 200;
-                font-size: 0.9rem;
-                color: $color-texto-gris;
+                font-size: 0.95rem;
+                color: $color-texto-parrafo;
                 font-family: $font;
             }
         }

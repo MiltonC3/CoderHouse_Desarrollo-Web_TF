@@ -4,7 +4,7 @@
     .div-registro{
         height: 60rem;
         .titulo-crear-cuenta{
-            @include ayuda-titulo(1rem,underline 1px,1.5rem,300);
+            @include ayuda-titulo(1rem,1.5rem,300);
         }
         .div-grid-registro{
             @include grid-registro(90%,50rem,2rem);

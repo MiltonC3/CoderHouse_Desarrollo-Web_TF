@@ -5,7 +5,7 @@
     left: 2.5%;
     .div-registro{
         .titulo-crear-cuenta{
-            @include ayuda-titulo(3rem,underline 1px,1.8rem,300);
+            @include ayuda-titulo(3rem,1.8rem,300);
         }
         .div-grid-registro{
             @include grid-registro(65rem,30rem,5rem);

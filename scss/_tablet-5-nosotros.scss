@@ -17,19 +17,16 @@
                 margin-bottom: 1rem;
                 font-family: $font;
                 text-align: center;
-                text-decoration: underline 1px;
                 font-weight: 300;
                 color: $color-texto-gris;
             }
         }
         div{
             .p-texto-nosotros{
-                position: relative;
-                left: 5%;
-                width: 90%;
+                width: 100%;
                 font-weight: 200;
                 font-size: 1.1rem;
-                color: $color-texto-gris;
+                color: $color-texto-parrafo;
                 font-family: $font;
             }
         }

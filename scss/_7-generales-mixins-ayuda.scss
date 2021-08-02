@@ -1,7 +1,6 @@
-@mixin ayuda-titulo($top,$text-decoration,$font-size,$font-weight){
+@mixin ayuda-titulo($top,$font-size,$font-weight){
     font-family: $font;
     text-align: center;
-    text-decoration: $text-decoration;
     font-weight: $font-weight;
     color: $color-texto-gris;
     position: relative;

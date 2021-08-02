@@ -2,7 +2,7 @@
     @include section-productos(3.5%,10rem,4rem);
     .titulo-productos{
         @include titulo-productos(96%,0,3.5rem,2.2rem,center);
-        border-bottom: $bordes $color-texto-gris;
+        border-bottom: $bordes $borde-compra-productos;
     }
     div{
         .div-row-productos{
@@ -45,7 +45,7 @@
         @include section-productos(0,11rem,4rem);
         .titulo-productos{
             @include titulo-productos(86%,8.8%,3.5rem,2.1rem,center);
-            border-bottom: $bordes $color-texto-gris;
+            border-bottom: $bordes $borde-compra-productos;
         }
         div{
             .div-row-productos{
@@ -62,7 +62,7 @@
         @include section-productos(0,11rem,4rem);
         .titulo-productos{
             @include titulo-productos(90%,9%,3.5rem,2.1rem,center);
-            border-bottom: $bordes $color-texto-gris;
+            border-bottom: $bordes $borde-compra-productos;
         }
         div{
             .div-row-productos{

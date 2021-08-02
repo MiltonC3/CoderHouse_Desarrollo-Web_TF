@@ -3,10 +3,10 @@
     position: relative;
     height: 45rem;
     .titulo-ayuda{
-        @include ayuda-titulo(8rem,underline 1px,1.6rem,300);
+        @include ayuda-titulo(8rem,1.6rem,300);
     }
     .subtitulo-ayuda{
-        @include ayuda-titulo(10rem,none,1rem,300);
+        @include ayuda-titulo(10rem,1rem,300);
     }
     .div-pasos-ayuda{
         position: relative;
@@ -61,7 +61,7 @@
     position: relative;
     height: 36rem;
     .titulo-preguntas-frecuentes{
-        @include ayuda-titulo(3rem,underline 1px,1.6rem,300);
+        @include ayuda-titulo(3rem,1.6rem,300);
     }
     .div-preguntas1{
         @include div-preguntas(9rem,90%,5%,9%);

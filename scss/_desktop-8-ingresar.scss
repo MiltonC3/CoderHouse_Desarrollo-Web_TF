@@ -5,7 +5,7 @@
     left: 2%;
     .div-iniciar-sesion{
         .iniciar-sesion{
-            @include ayuda-titulo(3rem,underline 1px,1.8rem,300);
+            @include ayuda-titulo(3rem,1.8rem,300);
         }
         form{
             position: relative;
