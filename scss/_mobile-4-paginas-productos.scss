@@ -1,10 +1,10 @@
 .section-paginas-productos{
-    @include section-paginas-productos(100%,131rem,6rem,0);
+    @include section-paginas-productos(100%,128rem,6rem,0);
     .grid-padre-productos{
         display: grid;
         @include section-paginas-productos(100%,125rem,0,0);
         grid-template-columns: 100%;
-        grid-template-rows: 22% 29% 21% 7% 22%;
+        grid-template-rows: 20% 30% 21% 6% 23%;
         grid-template-areas: 
                             "grid-img-productos" 
                             "grid-compra-productos"
@@ -19,7 +19,7 @@
         .grid-compra-productos{
             @include grid-productos(grid-compra-productos,none);
             .div-compra-titulo{
-                @include div-productos(90%,5rem,5%,none,$bordes);
+                @include div-productos(90%,6.5rem,5%,none,$bordes);
                 top: 1rem;
                 .h2-titulo-producto{
                     @include texto-div(0.5rem,200,1.7rem,$color-texto-gris);
@@ -157,7 +157,7 @@
             .div-p-descripcion{
                 @include div-productos(90%,80%,5%,none,none);
                 .p-descripcion{
-                    @include texto-div(2rem,200,1rem,$color-texto-parrafo);
+                    @include texto-div(2rem,200,1.05rem,$color-texto-parrafo);
                 } 
             }
         }
@@ -165,9 +165,9 @@
 }   
 @media only screen and (max-width:425px){
     .section-paginas-productos{
-        @include section-paginas-productos(100%,126rem,6rem,0);
+        @include section-paginas-productos(100%,127rem,6rem,0);
         .grid-padre-productos{
-            grid-template-rows: 20% 29% 21% 7% 24%;
+            grid-template-rows: 17% 30% 21% 7% 25%;
             .grid-img-productos{
                 width: 85%;
             }

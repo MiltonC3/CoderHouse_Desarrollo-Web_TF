@@ -21,8 +21,8 @@ body {
       position: relative;
       position: fixed;
       z-index: 1;
-      width: 1.7rem;
-      top: 1.8rem;
+      width: 1.6rem;
+      top: 1.9rem;
       left: 77vw;
       opacity: 1; }
     .mobile header .nav div .icon-menu-bordes {
@@ -315,7 +315,7 @@ body {
   .section-paginas-productos {
     width: 100%;
     position: relative;
-    height: 131rem;
+    height: 128rem;
     margin-top: 6rem;
     left: 0; }
     .section-paginas-productos .grid-padre-productos {
@@ -326,7 +326,7 @@ body {
       margin-top: 0;
       left: 0;
       grid-template-columns: 100%;
-      grid-template-rows: 22% 29% 21% 7% 22%;
+      grid-template-rows: 20% 30% 21% 6% 23%;
       grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-descripcion-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
@@ -342,7 +342,7 @@ body {
         .section-paginas-productos .grid-padre-productos .grid-compra-productos .div-compra-titulo {
           position: relative;
           width: 90%;
-          height: 5rem;
+          height: 6.5rem;
           left: 5%;
           border-top: none #444444;
           border-bottom: 1px solid #444444;
@@ -595,18 +595,18 @@ body {
             position: relative;
             top: 2rem;
             font-weight: 200;
-            font-size: 1rem;
+            font-size: 1.05rem;
             color: #b3b3b3; } }
 
 @media only screen and (max-width: 575px) and (max-width: 425px) {
   .section-paginas-productos {
     width: 100%;
     position: relative;
-    height: 126rem;
+    height: 127rem;
     margin-top: 6rem;
     left: 0; }
     .section-paginas-productos .grid-padre-productos {
-      grid-template-rows: 20% 29% 21% 7% 24%; }
+      grid-template-rows: 17% 30% 21% 7% 25%; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         width: 85%; } }
 
@@ -635,7 +635,7 @@ body {
         left: 5%;
         width: 90%;
         font-weight: 200;
-        font-size: 0.95rem;
+        font-size: 1.05rem;
         color: #b3b3b3;
         font-family: "Mukta", sans-serif; }
       .section-nosotros .div-contenedor-nosotros div .img-nosotros {
@@ -1119,7 +1119,7 @@ body {
     .footer__contenedor-padre .footer__div-footer2 {
       grid-area: footer__div-footer2; } }
 
-@media only screen and (max-width: 575px) and (max-width: 410px) {
+@media only screen and (max-width: 575px) and (max-width: 415px) {
   .footer__contenedor-padre .footer__correo .footer__correo--texto {
     color: #8b8b8b;
     text-align: center;
@@ -1164,9 +1164,9 @@ body {
       position: relative;
       position: fixed;
       z-index: 1;
-      width: 1.9rem;
-      top: 8rem;
-      left: 92%;
+      width: 1.7rem;
+      top: 1.9rem;
+      left: 82.5vw;
       opacity: 1; }
     .mobile header .nav div div ul li .icon-usuario {
       width: 4rem; }
@@ -1185,7 +1185,19 @@ body {
       font-weight: 300;
       margin-top: 1rem;
       text-align: center;
-      font-family: "Mukta", sans-serif; }
+      font-family: "Mukta", sans-serif; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) and (max-width: 767px) {
+  .mobile header .nav div .div-carrito-mobile .icon-carrito-mobile {
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    width: 1.7rem;
+    top: 1.9rem;
+    left: 77vw;
+    opacity: 1; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
   .section-logo-index div div .logo {
     position: relative;
     top: 7rem;
