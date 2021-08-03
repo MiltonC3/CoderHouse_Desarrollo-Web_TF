@@ -78,7 +78,7 @@
         .footer__correo{
             .footer__correo--texto{
                 @include texto-footer(0.5rem,0.75rem,center);
-                right: 0.1rem;
+                right: 0.2rem;
             }
         }
         .footer__telefono{
@@ -90,6 +90,28 @@
             grid-area: footer__div-copyright;
             .footer__copyright--texto{
                 @include texto-footer(0.5rem,0.75rem,start);
+                margin-left: 0.2rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:360px){
+    .footer__contenedor-padre{
+        .footer__correo{
+            .footer__correo--texto{
+                @include texto-footer(0.5rem,0.7rem,center);
+                right: 0.1rem;
+            }
+        }
+        .footer__telefono{
+            .footer__telefono--texto{
+                @include texto-footer(0.5rem,0.7rem,center);
+            }
+        }
+        .footer__copyright{
+            grid-area: footer__div-copyright;
+            .footer__copyright--texto{
+                @include texto-footer(0.5rem,0.7rem,start);
                 margin-left: 0.1rem;
             }
         }

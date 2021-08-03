@@ -1128,7 +1128,7 @@ body {
     position: relative;
     font-size: 0.75rem;
     top: 0.5rem;
-    right: 0.1rem; }
+    right: 0.2rem; }
   .footer__contenedor-padre .footer__telefono .footer__telefono--texto {
     color: #8b8b8b;
     text-align: center;
@@ -1146,6 +1146,36 @@ body {
       font-weight: 300;
       position: relative;
       font-size: 0.75rem;
+      top: 0.5rem;
+      margin-left: 0.2rem; } }
+
+@media only screen and (max-width: 575px) and (max-width: 360px) {
+  .footer__contenedor-padre .footer__correo .footer__correo--texto {
+    color: #8b8b8b;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 0.7rem;
+    top: 0.5rem;
+    right: 0.1rem; }
+  .footer__contenedor-padre .footer__telefono .footer__telefono--texto {
+    color: #8b8b8b;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 0.7rem;
+    top: 0.5rem; }
+  .footer__contenedor-padre .footer__copyright {
+    grid-area: footer__div-copyright; }
+    .footer__contenedor-padre .footer__copyright .footer__copyright--texto {
+      color: #8b8b8b;
+      text-align: start;
+      font-family: "Mukta", sans-serif;
+      font-weight: 300;
+      position: relative;
+      font-size: 0.7rem;
       top: 0.5rem;
       margin-left: 0.1rem; } }
 
