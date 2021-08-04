@@ -14,14 +14,14 @@
         @include div-redes(footer__div-instagram,2.7rem,2.7rem);
         border-radius: 50%;
         .footer__icon-instagram--size{
-            @include div-redes-icon(1rem,0.75rem,0.8rem);
+            @include div-redes-icon(1rem,0.77rem,0.8rem);
         }
     }    
     .footer__facebook{
         @include div-redes(footer__div-facebook,2.7rem,2.7rem);
         border-radius: 50%;
         .footer__icon-facebook--size{
-            @include div-redes-icon(1rem,0.85rem,0.8rem);
+            @include div-redes-icon(1rem,0.77rem,0.8rem);
         }
     }
     .footer__whatsapp{
