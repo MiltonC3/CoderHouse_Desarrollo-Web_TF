@@ -104,7 +104,7 @@ body {
       border-radius: 0.5rem;
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 20% 80%;
-      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
+      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
       .section-publicidad .row-publicidad-index .div-publicidad {
         grid-area: div-publicidad;
         text-align: center; }
@@ -151,7 +151,7 @@ body {
       border-radius: 0.5rem;
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 20% 80%;
-      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
+      grid-template-areas: "div-publicidad div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-1 div-carrousel-2 div-carrousel-2"; }
       .section-publicidad .row-publicidad-index .div-carrousel-1 {
         margin-top: 1rem;
         grid-area: div-carrousel-1; }
@@ -327,7 +327,7 @@ body {
       left: 0;
       grid-template-columns: 100%;
       grid-template-rows: 20% 30% 21% 6% 23%;
-      grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-descripcion-productos"; }
+      grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-descripcion-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
         width: 76%;
@@ -932,7 +932,7 @@ body {
         left: 26%;
         grid-template-columns: 50% 50%;
         grid-template-rows: 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 10%;
-        grid-template-areas: "input-registro-1" "input-registro-2" "input-registro-3" "input-registro-4" "input-registro-5" "input-registro-6" "input-registro-7" "input-registro-8"  "input-registro-9" "input-registro-10"  "input-registro-11" "input-registro-12" "div-boton-crear-cuenta"; }
+        grid-template-areas: "input-registro-1" "input-registro-2" "input-registro-3" "input-registro-4" "input-registro-5" "input-registro-6" "input-registro-7" "input-registro-8"  "input-registro-9" "input-registro-10"  "input-registro-11" "input-registro-12" "div-boton-crear-cuenta"; }
         .section-registro .div-registro .div-grid-registro .input-registro-1 {
           grid-area: input-registro-1; }
         .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -1259,7 +1259,7 @@ body {
       border-radius: 0.5rem;
       grid-template-columns: 33.34% 33.34% 33.34%;
       grid-template-rows: 5rem 14.5rem;
-      grid-template-areas: "div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-2 div-carrousel-3"; }
+      grid-template-areas: "div-publicidad div-publicidad div-publicidad" "div-carrousel-1 div-carrousel-2 div-carrousel-3"; }
       .section-publicidad .row-publicidad-index .div-publicidad {
         grid-area: div-publicidad;
         text-align: center; }
@@ -1477,7 +1477,7 @@ body {
       left: 0;
       grid-template-columns: 50% 50%;
       grid-template-rows: 48% 38% 14%;
-      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
+      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
         width: 90%;
@@ -1758,7 +1758,7 @@ body {
       height: 125rem;
       grid-template-columns: 100%;
       grid-template-rows: 21% 29% 20% 8% 22%;
-      grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-descripcion-productos"; }
+      grid-template-areas: "grid-img-productos"  "grid-compra-productos" "grid-pagos-productos" "grid-garantia-productos" "grid-descripcion-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
         width: 75%;
@@ -2158,7 +2158,7 @@ body {
         align-items: center;
         grid-template-columns: 33.34% 33.34% 33.4%;
         grid-template-rows: 20% 20% 20% 20% 20%;
-        grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+        grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
         .section-registro .div-registro .div-grid-registro .input-registro-1 {
           grid-area: input-registro-1; }
         .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -2230,7 +2230,7 @@ body {
         align-items: center;
         grid-template-columns: 50% 50%;
         grid-template-rows: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
-        grid-template-areas: "input-registro-1 input-registro-2" "input-registro-3 input-registro-4" "input-registro-5 input-registro-6" "input-registro-7 input-registro-8"  "input-registro-9 input-registro-10"  "input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta"; }
+        grid-template-areas: "input-registro-1 input-registro-2" "input-registro-3 input-registro-4" "input-registro-5 input-registro-6" "input-registro-7 input-registro-8"  "input-registro-9 input-registro-10"  "input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta"; }
         .section-registro .div-registro .div-grid-registro .div-boton-crear-cuenta .boton-crear-cuenta {
           position: relative;
           width: 10rem;
@@ -2462,7 +2462,6 @@ body {
     flex-wrap: wrap;
     justify-content: end;
     list-style: none;
-    height: 100%;
     margin-left: 4rem; }
     .desktop nav div .ul-nav .li-nav {
       font-size: 1.3rem;
@@ -2504,7 +2503,7 @@ body {
       margin-left: 5%;
       grid-template-columns: 33.34% 33.34% 33.34%;
       grid-template-rows: 26rem 6rem;
-      grid-template-areas: "div-carrousel-1 div-carrousel-2 div-carrousel-3" "div-publicidad div-publicidad div-publicidad"; }
+      grid-template-areas: "div-carrousel-1 div-carrousel-2 div-carrousel-3" "div-publicidad div-publicidad div-publicidad"; }
       .section-publicidad .row-publicidad-index .div-carrousel-1 {
         grid-area: div-carrousel-1;
         align-self: center; }
@@ -2732,7 +2731,7 @@ body {
       left: 5%;
       grid-template-columns: 50% 50%;
       grid-template-rows: 50% 37% 13%;
-      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
+      grid-template-areas: "grid-img-productos grid-compra-productos" "grid-descripcion-productos grid-pagos-productos" "grid-descripcion-productos grid-garantia-productos"; }
       .section-paginas-productos .grid-padre-productos .grid-img-productos {
         grid-area: grid-img-productos;
         width: 75%;
@@ -3369,7 +3368,7 @@ body {
       align-items: center;
       grid-template-columns: 25% 25% 25% 25%;
       grid-template-rows: 25% 25% 25% 25%;
-      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3 input-registro-4" "input-registro-5 input-registro-6 input-registro-7 input-registro-8" "input-registro-9 input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3 input-registro-4" "input-registro-5 input-registro-6 input-registro-7 input-registro-8" "input-registro-9 input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
       .section-registro .div-registro .div-grid-registro .input-registro-1 {
         grid-area: input-registro-1; }
       .section-registro .div-registro .div-grid-registro .input-registro-2 {
@@ -3441,7 +3440,7 @@ body {
       align-items: center;
       grid-template-columns: 33.34% 33.34% 33.4%;
       grid-template-rows: 20% 20% 20% 20% 20%;
-      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
+      grid-template-areas: "input-registro-1 input-registro-2 input-registro-3" "input-registro-4 input-registro-5 input-registro-6" "input-registro-7 input-registro-8 input-registro-9"  "input-registro-10 input-registro-11 input-registro-12" "div-boton-crear-cuenta div-boton-crear-cuenta div-boton-crear-cuenta"; }
       .section-registro .div-registro .div-grid-registro .input-registro {
         position: relative;
         width: 13.5rem;
