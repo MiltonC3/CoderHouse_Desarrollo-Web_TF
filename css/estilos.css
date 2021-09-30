@@ -3027,29 +3027,20 @@ body {
           width: 90%;
           position: relative;
           left: 5%;
-          border-radius: 0.5rem;
-          transition: 1s ease; }
-          .section-nosotros .div-contenedor-nosotros .img-nosotros-1 .img-nosotros:hover {
-            opacity: 0.9; }
+          border-radius: 0.5rem; }
       .section-nosotros .div-contenedor-nosotros .img-nosotros-2 {
         grid-area: img-nosotros-2; }
         .section-nosotros .div-contenedor-nosotros .img-nosotros-2 .img-nosotros {
           width: 90%;
           position: relative;
           left: 5%;
-          border-radius: 0.5rem;
-          transition: 1s ease; }
-          .section-nosotros .div-contenedor-nosotros .img-nosotros-2 .img-nosotros:hover {
-            opacity: 0.9; }
+          border-radius: 0.5rem; }
       .section-nosotros .div-contenedor-nosotros .img-nosotros-3 {
         grid-area: img-nosotros-3;
         align-self: center;
         justify-self: center; }
         .section-nosotros .div-contenedor-nosotros .img-nosotros-3 .img-nosotros {
-          border-radius: 0.5rem;
-          transition: 1s ease; }
-          .section-nosotros .div-contenedor-nosotros .img-nosotros-3 .img-nosotros:hover {
-            opacity: 0.9; }
+          border-radius: 0.5rem; }
       .section-nosotros .div-contenedor-nosotros div .titulo-nosotros {
         font-size: 1.8rem;
         font-family: "Mukta", sans-serif;
