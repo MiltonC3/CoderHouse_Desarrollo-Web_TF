@@ -9,7 +9,7 @@
             height: 84rem;
             .card-contenedor{
                 @include card-contenedor(16rem,23rem);
-                transition: 1s;
+                transition: 0.5s ease-in;
                 grid-template-columns: 50% 50%;
                 grid-template-rows: 70% 15% 15%;
                 grid-template-areas: 

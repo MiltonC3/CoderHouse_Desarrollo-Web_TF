@@ -2623,7 +2623,7 @@ body {
         height: 23rem;
         background-color: #0a0a0a;
         border: 1px solid #F27649;
-        transition: 1s;
+        transition: 0.5s ease-in;
         grid-template-columns: 50% 50%;
         grid-template-rows: 70% 15% 15%;
         grid-template-areas: "img-card img-card" "precio-card envio-card" "texto-card texto-card"; }
