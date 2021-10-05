@@ -9,12 +9,6 @@ class Producto {
         this.enlacePagina = pPagina
         this.img = pImg
     }
-
-    sumaIva(){
-        this.precio = parseInt(this.precio * 1.21);
-        this.tresCuotas = parseInt(this.tresCuotas * 1.21);
-        this.seisCuotas = parseInt(this.seisCuotas * 1.21);
-    }
 }
 
 //Array de Productos
@@ -68,7 +62,7 @@ arrayProductos.push(
                    "productos/especiero-grande.html"
                    ),
     new Producto ( "Silla Comedor x2 - Color Roble Claro" , 
-                   3399 ,
+                   3199 ,
                    "multimedia/img/tienda/Silla Color Roble Claro.png" , 
                    "productos/silla.html"
                    ),
@@ -83,14 +77,6 @@ arrayProductos.push(
                    "productos/colgante-tazas.html"
                    )
 )
-
-//For para sumar IVA a los productos
-
-for(const producto of arrayProductos){
-
-    producto.sumaIva()
-
-}
 
 //Reccoro mediante con un forEach para crear multiples cards
 
